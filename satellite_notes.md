@@ -26,6 +26,13 @@
 https://github.com/open-mmlab/mmsegmentation
 https://github.com/Junjue-Wang/LoveDA
 
+## Agriculture-Vision Challenge Dataset
+https://github.com/SHI-Labs/Agriculture-Vision#agriculture-vision-challenge-dataset
+- 7 classes: 0-background,1-cloud_shadow,2-double_plant,3-planter_skip,4-standing_water,5-waterway,6-weed_cluster
+- 21,061 aerial farmland images captured throughout 2019 across the US
+- 512x512x4, RGB+NIR
+- 
+
 ## iSAID
 https://captain-whu.github.io/DOTA/dataset.html
 - oriented bounding box
