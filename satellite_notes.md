@@ -26,6 +26,11 @@
 https://github.com/open-mmlab/mmsegmentation
 https://github.com/Junjue-Wang/LoveDA
 
+## iSAID
+https://captain-whu.github.io/DOTA/dataset.html
+- oriented bounding box
+- Google Earth, GF-2 and JL-1 satellite provided by the China Centre for Resources Satellite Data and Application, and aerial images provided by CycloMedia B.V. DOTA consists of RGB images and grayscale images
+- object categories: plane, ship, storage tank, baseball diamond, tennis court, basketball court, ground track field, harbor, bridge, large vehicle, small vehicle, helicopter, roundabout, soccer ball field, swimming pool, container crane, airport and helipad
 
 # Libraries
 ## Segmentation models PyTorch
@@ -34,8 +39,14 @@ https://github.com/qubvel/segmentation_models.pytorch
 
 ## MMSegmentation
 https://github.com/open-mmlab/mmsegmentation
-- a lot...
+- a lot of backbone and seg network architectures
+- LoveDA, Potsdam, iSAID
 
+## Mask2Former
+https://github.com/facebookresearch/Mask2Former
+- detectron2, for instance/semantic/panoptic/video segmentation
+- dataset structure from COCO, json for annotation
+- ResNet and Swin-Transformer backbones
 
 # Terminology
 orthoimage/orthophoto
