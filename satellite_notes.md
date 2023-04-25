@@ -70,6 +70,13 @@ https://captain-whu.github.io/DOTA/dataset.html
 - object categories: plane, ship, storage tank, baseball diamond, tennis court, basketball court, ground track field, harbor, bridge, large vehicle, small vehicle, helicopter, roundabout, soccer ball field, swimming pool, container crane, airport and helipad
 
 # Libraries
+
+## segment-geospatial (SAMGeo)
+- https://samgeo.gishub.org/
+- https://github.com/aliaksandr960/segment-anything-eo
+- https://github.com/facebookresearch/segment-anything
+
+
 ## Segmentation models PyTorch
 https://github.com/qubvel/segmentation_models.pytorch
 - UNet, FPN, PSPNet, DeepLab...
