@@ -1,8 +1,38 @@
 # Papers
+## Self-supervised Learning in Remote Sensing: A Review
+https://arxiv.org/abs/2206.13188
+
 ## A generalizable and accessible approach to machine learning with global satellite imagery
 - Nature Communications, 2021
 - Multi-task Observation using Satellite Imagery & Kitchen Sinks (MOSAIKS)
 - one-time unsupervised image featurization using random convolutional features
+
+## Seasonal Contrast: Unsupervised Pre-Training from Uncurated Remote Sensing Data
+https://arxiv.org/abs/2103.16607
+
+## SSL4EO-S12: A Large-Scale Multi-Modal, Multi-Temporal Dataset for Self-Supervised Learning in Earth Observation
+https://arxiv.org/abs/2211.07044
+
+# Benchmark
+## BigEarthNet
+https://bigearth.net/
+https://arxiv.org/pdf/2105.07921.pdf
+https://git.tu-berlin.de/rsim/BigEarthNet-MM_19-classes_models (TensorFlow)
+- Remote Sensing Image Analysis (RSiM) Group and the Database Systems and Information Management (DIMA) Group at the Technische Universität Berlin
+- 590,326 pairs of Sentinel-1 and Sentinel-2 image patches
+- first version (v1.0-beta) of BigEarthNet includes only Sentinel 2 images
+- 125 Sentinel-2 tiles acquired between June 2017 and May 2018 over the 10 countries (Austria, Belgium, Finland, Ireland, Kosovo, Lithuania, Luxembourg, Portugal, Serbia, Switzerland)
+- All the tiles were atmospherically corrected by the Sentinel-2 Level 2A product generation and formatting tool (sen2cor v2.5.5)
+- divided into 590,326 non-overlapping image patches
+- Each image patch was annotated by the multiple land-cover classes (i.e., multi-labels) that were provided from the CORINE Land Cover database of the year 2018 (CLC 2018)
+- 66GB
+### BigEarthNet-S1
+- 321 Sentinel-1 scenes acquired between June 2017 and May 2018
+- BigEarthNet-S1 consists of 590,326 preprocessed Sentinel-1 image patches - one for each Sentinel-2 patch
+- 55GB
+### BigEarthNet-MM
+- multi-modal, Sentinel-1
+
 
 # Datasets
 ## DeepGlobe Land Cover Classification Challenge dataset
