@@ -1,6 +1,8 @@
 # Papers
 ## Self-supervised Learning in Remote Sensing: A Review
-https://arxiv.org/abs/2206.13188
+[Link to paper](https://arxiv.org/abs/2206.13188)
+[Benchmarking code, dataset and pre-trained models in PyTorch](https://github.com/zhu-xlab/SSL4EO-S12)
+Dataset: BigEarthNet
 
 ## A generalizable and accessible approach to machine learning with global satellite imagery
 - Nature Communications, 2021
