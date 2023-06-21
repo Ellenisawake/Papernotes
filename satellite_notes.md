@@ -1,4 +1,19 @@
 # Papers
+## ViTs for SITS: Vision Transformers for Satellite Image Time Series
+- CVPR2023 https://arxiv.org/abs/2301.04944
+- Temporo-Spatial Vision Transformer (TSViT)
+- https://github.com/michaeltrs/DeepSatModels
+- general Satellite Image Time Series (SITS) processing
+- acquisition-time-specific temporal positional encodings
+- multiple learnable class tokens
+
+## Change-Aware Sampling and Contrastive Learning for Satellite Images
+- [CVPR2023](https://openaccess.thecvf.com/content/CVPR2023/papers/Mall_Change-Aware_Sampling_and_Contrastive_Learning_for_Satellite_Images_CVPR_2023_paper.pdf)
+- use the temporal signal to contrast images with long-term and shortterm differences
+- a new loss contrastive loss called ChangeAware Contrastive (CACo) Loss
+- a novel method of sampling different geographical regions
+- semantic segmentation, change detection
+
 ## Self-supervised Learning in Remote Sensing: A Review
 - [Link to paper](https://arxiv.org/abs/2206.13188)
 - [Benchmarking code, dataset and pre-trained models in PyTorch](https://github.com/zhu-xlab/SSL4EO-S12)
