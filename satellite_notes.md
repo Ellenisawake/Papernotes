@@ -1,4 +1,21 @@
 # Papers
+
+## Continental-Scale Building Detection from High Resolution Satellite Imagery
+- https://sites.research.google/open-buildings/
+- https://arxiv.org/pdf/2107.12283.pdf
+- detecting buildings across the entire continent of Africa, South Asia, South-East Asia, Latin America and the Caribbean
+- 50cm satellite imagery, a dataset of 100k satellite images, 1.75M manually labelled
+building instances; further datasets for pre-training and self-training
+- U-Net model,
+- study variations in architecture, loss functions, regularization, pre-training,
+self-training and post-processing that increase instance segmentation performance
+  - use of mixup
+  - self-training with soft KL loss
+- Open Buildings dataset: 1.8 billion buildings (building polygons, building points and score thresholds)
+- Other resources:
+  - [DeepGlobe 2018 Challenge](http://deepglobe.org/)
+  - [EarthVision 2019](http://www.classic.grss-ieee.org/earthvision2019/)
+
 ## ViTs for SITS: Vision Transformers for Satellite Image Time Series
 - CVPR2023 https://arxiv.org/abs/2301.04944
 - Temporo-Spatial Vision Transformer (TSViT)
