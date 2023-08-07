@@ -1,5 +1,17 @@
 # Papers
 
+## Automatically Mapping Urban Green Space Using Sentinel-2 Imagery and Deep Learning Methods in Multiple Cities Worldwide: A Convolutional Neural Network Approach
+- [Master thesis](https://studenttheses.uu.nl/bitstream/handle/20.500.12932/42573/Automatically%20Mapping%20Urban%20Green%20Space%20Using%20Sentinel-2%20Imagery%20and%20Deep%20Learning%20Methods%20in%20Multiple%20Cities%20Worldwide%20A%20Convolutional%20Neural%20Network%20Approach.pdf?sequence=1&isAllowed=y) of Applied Data Science in Utrecht University
+- semantic segmentation of urban green spaces from Sentinel-2 imagery for multiple cities around the globe
+  - such as golf courses and cemeteries
+- U-Net model from base level and U-Net model with ResNet-50 and VGG-16 backbones pretrained on ImageNet
+- average OA, IoU, F-score, and AUC
+- 13 cities for model training, 3 external cities for testing and prediction
+ - San Francisco, Seattle, Denver, Philadelphia, Greater Manchester, Dublin, Amsterdam, Ghent, Dhaka, Vancouver, Dallas, London, and Buffalo – six from the USA, five from West Europe, one in Canada, and one in Asia
+ - Washington D.C., Kampala, and Tel Aviv
+- EarthExplorer, blue (B2), green (B3), red (B4), near-infrared (NIR, B8), and short-wave infrared (SWIR, B12),
+- Spatial resolution for B2-B4 and B8 is 10m, and for B12 it is 20m
+
 ## Continental-Scale Building Detection from High Resolution Satellite Imagery
 - https://sites.research.google/open-buildings/
 - https://arxiv.org/pdf/2107.12283.pdf
