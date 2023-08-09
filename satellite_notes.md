@@ -81,6 +81,20 @@ https://arxiv.org/abs/2103.16607
 https://arxiv.org/abs/2211.07044
 
 # Benchmark
+## SpaceNet
+### SpaceNet 2 building detection
+https://spacenet.ai/spacenet-buildings-dataset-v2/
+- evaluation metric: Jaccard Index (Intersection-over-Union (IoU))
+- https://github.com/SpaceNetChallenge/utilities
+
+### SpaceNet 3 road detection
+https://spacenet.ai/spacenet-roads-dataset/
+
+
+### SpaceNet 8 flood detection
+- [data](https://medium.com/@SpaceNet_Project/the-spacenet-8-flood-detection-challenge-dataset-and-algorithmic-baseline-release-e0c9f5a44154)
+- 12 Maxar satellite images of both pre- and post-flooding event imagery
+
 ## BigEarthNet
 https://bigearth.net/
 https://arxiv.org/pdf/2105.07921.pdf
