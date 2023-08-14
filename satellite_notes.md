@@ -86,6 +86,9 @@ https://arxiv.org/abs/2211.07044
 https://spacenet.ai/spacenet-buildings-dataset-v2/
 - evaluation metric: Jaccard Index (Intersection-over-Union (IoU))
 - https://github.com/SpaceNetChallenge/utilities
+- satellite data: DigitalGlobe WorldView 3, Level 2A product, 1.24m resolution 8-band multi-spectrial 11-bit geotiff
+- coastal blue, blue, green, yellow, red, red edge, Near IR-1, Near Ir-2 (400-1040nm) | Nadir 1.24m
+- 
 
 ### SpaceNet 3 road detection
 https://spacenet.ai/spacenet-roads-dataset/
