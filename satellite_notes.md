@@ -1,5 +1,13 @@
 # Papers
 
+## A spatio-temporal analysis investigating completeness and inequalities of global urban building data in OpenStreetMap
+- https://www.nature.com/articles/s41467-023-39698-6
+- nature communications
+- employ a machine-learning model to infer the completeness of OSM building stock data for 13,189 urban agglomerations worldwide
+- findings:
+  - For 1,848 urban centres (16% of the urban population), OSM building footprint data exceeds 80% completeness, but completeness remains lower than 20% for 9,163 cities (48% of the urban population)  
+
+
 ## Automatically Mapping Urban Green Space Using Sentinel-2 Imagery and Deep Learning Methods in Multiple Cities Worldwide: A Convolutional Neural Network Approach
 - [Master thesis](https://studenttheses.uu.nl/bitstream/handle/20.500.12932/42573/Automatically%20Mapping%20Urban%20Green%20Space%20Using%20Sentinel-2%20Imagery%20and%20Deep%20Learning%20Methods%20in%20Multiple%20Cities%20Worldwide%20A%20Convolutional%20Neural%20Network%20Approach.pdf?sequence=1&isAllowed=y) of Applied Data Science in Utrecht University
 - Model
