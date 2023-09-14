@@ -1,5 +1,13 @@
 # Papers
 
+## Regional Variations of Context‐based Association Rules in OpenStreetMap
+- https://onlinelibrary.wiley.com/doi/full/10.1111/tgis.12694
+- https://zenodo.org/record/4056680
+- only one type of green space was considered within this study: leisure=park
+- The aim of this case study is to identify association rules between OSM tags which frequently occur together inside a park independently of whether they are attached to the same OSM feature or not.
+- Dresden (Germany), Berlin, London, Tel Aviv, Tokyo, Osaka, New York, Vancouver
+- OpenStreetMap History Database (OSHDB)
+
 ## A spatio-temporal analysis investigating completeness and inequalities of global urban building data in OpenStreetMap
 - https://www.nature.com/articles/s41467-023-39698-6
 - nature communications
