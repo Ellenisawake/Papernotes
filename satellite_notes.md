@@ -97,6 +97,12 @@ https://arxiv.org/abs/2103.16607
 https://arxiv.org/abs/2211.07044
 
 # Benchmark
+## GeoNet
+- CVPR 2023 [link]([https://tarun005.github.io/files/papers/GeoNet.pdf](https://tarun005.github.io/GeoNet/))
+- tasks: scene recognition, image classification and universal adaptation
+- major source of domain shifts arise from significant variations in scene context (context shift), object design (design shift) and label distribution (prior shift) across geographies)
+- images from US and Asia domains
+
 ## SpaceNet
 ### SpaceNet 2 building detection
 https://spacenet.ai/spacenet-buildings-dataset-v2/
