@@ -1,5 +1,15 @@
 # Papers
 
+## A 10 m resolution urban green space map for major Latin American cities from Sentinel-2 remote sensing images and OpenStreetMap
+- [link to resources](https://figshare.com/articles/dataset/A_10_m_resolution_urban_green_space_map_for_major_Latin_American_cities_from_Sentinel-2_remote_sensing_images_and_OpenStreetMap/19803790)
+- 371 major Latin American cities as of 2017
+- [github](https://github.com/yangju-90/urban_greenspace_classification/tree/main)
+- supervised classification of Sentinel-2 satellite imagery and UGS samples derived from OpenStreetMap
+- binary UGS maps at 10 m spatial resolution in GEOTIFF format
+- a shapefile of mapped boundaries
+- .prj files containing projection information
+
+
 ## Regional Variations of Context‐based Association Rules in OpenStreetMap
 - https://onlinelibrary.wiley.com/doi/full/10.1111/tgis.12694
 - https://zenodo.org/record/4056680
