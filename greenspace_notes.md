@@ -20,6 +20,12 @@
 - [link to paper](https://essd.copernicus.org/articles/15/555/2023/)
 - [additional github](https://github.com/liumency/UGS-1m)
 - [link2](https://www.scidb.cn/en/detail?dataSetId=36af2aed281e4c82aa8a3cd3f1211a37#p2)
+- UGS: parks, green buffers, square green spaces, attached green spaces, and other green spaces
+- urban green space dataset UGSet: 4544 samples, 512x512 (142 sample areas in Guangdong, Gaofen-2 (GF2) satellite)
+  - spatial resolution of about 1 m, which is equipped with two high-resolution, 1 m panchromatic and 4 m multispectral cameras  
+- a generator: fully convolutional network designed for UGS extraction (UGSNet) with attention, pre-trained on UGSet
+- discriminator: fully connected network aiming to deal with the domain shift between images
+- fine-tuning: 2179 Google Earth images, 1.1m spatial resolution
 
 
 ## Automatically Mapping Urban Green Space Using Sentinel-2 Imagery and Deep Learning Methods in Multiple Cities Worldwide: A Convolutional Neural Network Approach
