@@ -1,6 +1,14 @@
 # Papers
 ## Mapping Public Urban Green Spaces Based on OpenStreetMap and Sentinel-2 Imagery Using Belief Functions
 - [link to paper](https://www.mdpi.com/2220-9964/10/4/251)
+- Sentinel-2 imagery cannot distinguish public from private green spaces and its spatial resolution of 10 m fails to capture fine-grained urban structures
+- OSM green spaces are not mapped consistently and with the same level of completeness everywhere
+- Sentinel-2 derived Normalized Difference Vegetation Index was fused with OSM data using the Dempster–Shafer theory
+- land use parcels derived from OSM data and tested for the city of Dresden, Germany (city center, 51.5km2)
+- pan-European CORINE Land Cover data set: a designated class “Green Urban Areas” (only includes green spaces larger than 25 ha)
+- For validation, multi-spectral aerial image with a spatial resolution of 40 cm (red, green, blue, infra-red)
+- public accessibility was modeled using a Bayesian logistic regression approach
+- only OSM data was used to distinguish public from private green spaces
 
 
 ## The potentials of Sentinel-2 and LandSat-8 data in green infrastructure extraction, using object based image analysis (OBIA) method
