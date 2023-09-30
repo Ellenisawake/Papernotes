@@ -10,6 +10,8 @@
 - [link to resources](https://figshare.com/articles/dataset/A_10_m_resolution_urban_green_space_map_for_major_Latin_American_cities_from_Sentinel-2_remote_sensing_images_and_OpenStreetMap/19803790)
 - 371 major Latin American cities as of 2017
 - [github](https://github.com/yangju-90/urban_greenspace_classification/tree/main)
+- UGS: grass, shrub, forest, and farmland
+- Non-UGS: buildings, pavement, roads, barren land, and dry vegetation
 - supervised classification of Sentinel-2 satellite imagery and UGS samples derived from OpenStreetMap
 - binary UGS maps at 10 m spatial resolution in GEOTIFF format
 - a shapefile of mapped boundaries
