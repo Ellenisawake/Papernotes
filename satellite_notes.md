@@ -1,5 +1,14 @@
 # Papers
 
+## SatlasPretrain: Understanding the World Through Satellite Imagery
+- ICCV23 [link](https://satlas-pretrain.allen.ai/) [Satlas](https://satlas.allen.ai/)
+- over 30 TB of satellite (Sentinel-2 and NAIP) images with 137 label categories
+- 856K tiles (828K train and 28K test), 512x512
+- 46K tiles (45.5K train and 512 test), 8192x8192
+- Semantic segmentation, Regression, Points, Polygons, Polylines, Classification
+  - new annotation by domain experts, new annotation by Amazon Mechanical Turk (AMT) workers, and processing five
+existing datasets—OpenStreetMap, NOAA lidar scans, WorldCover, Microsoft Buildings, and C2S
+- SatlasNet: 3 SwinTransformer + UNet/Mask-RCNN decoder
 
 ## Regional Variations of Context‐based Association Rules in OpenStreetMap
 - https://onlinelibrary.wiley.com/doi/full/10.1111/tgis.12694
