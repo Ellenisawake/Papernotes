@@ -70,6 +70,14 @@
   - additional UGS identified: golf courses, national parks, and cemeteries
 
 
+## An automatic extraction architecture of urban green space 689 based on deeplabv3plus semantic segmentation model 
+- [link to paper](https://ieeexplore.ieee.org/document/8981007)
+- 2019 International Conference on Image, Vision and Computing (ICIVC)
+- 256×256 pixels slices from Gaofen-2(GF-2) satellite images of three different cities
+- ML (Maximum likelihood), SVM (Support Vector Machine), Object-oriented method, FCN and U-Net
+- DeepLabv3plus outperforms the other five
+- ground truth were provided by the Ministry of Housing and Urban-rural development of China
+
 
 # Code
 ## Park-NET-identifying-Urban-parks-using-multi-source-spatial-data-and-Geo-AI
