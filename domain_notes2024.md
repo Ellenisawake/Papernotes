@@ -30,7 +30,7 @@
 - replace training sim images with strongly augmented views, calibration loss
 - GTAV --> Cityscapes
 
-Patch-Mix Transformer for Unsupervised Domain Adaptation: A Game Perspective
+## Patch-Mix Transformer for Unsupervised Domain Adaptation: A Game Perspective
 - CVPR 2023, HKUST
 - [link](https://arxiv.org/pdf/2303.13434v2)
 - [pytorch 1.7 code (apex)](https://github.com/JinjingZhu/PMTrans)
@@ -40,11 +40,28 @@ Patch-Mix Transformer for Unsupervised Domain Adaptation: A Game Perspective
 - using pre-trained Swin-B model
 - experiments on: Office-Home, Office-31, DomainNet and VisDA17
 
-MIC: Masked Image Consistency for Context-Enhanced Domain Adaptation
+## MIC: Masked Image Consistency for Context-Enhanced Domain Adaptation
 - CVPR 2023, ETH Zurich & Max Planck Institute for Informatics
 - [link](https://arxiv.org/pdf/2212.01322v2)
 - [code](https://github.com/lhoyer/mic)
 - learning spatial context relations of the target domain: enforces the
 consistency between predictions of masked target images
 - pseudo-labels that are generated based on the complete image by an exponential moving average teacher
-- experiments on: GTA to Cityscapes, and VisDA17
+- experiments on: GTA5 to Cityscapes, and VisDA17
+
+## Hyperbolic Active Learning for Semantic Segmentation under Domain Shift
+- ICML 2024, Sapienza University of Rome & UC Berkeley
+- [link](https://arxiv.org/pdf/2306.11180v4)
+- [code](https://github.com/paolomandica/HALO)
+- novel interpretation of the hyperbolic radius as an indicator of data scarcity
+- using either CNN or transformer backbones
+- experiments on: GTA5/SYNTHIA to Cityscapes, Cityscapes to ACDC
+
+## Deliberated Domain Bridging for Domain Adaptive Semantic Segmentation
+- NeurIPS 2022, University of Science and Technology of China
+- [link](https://arxiv.org/pdf/2209.07695v3)
+- [code](https://github.com/xiaoachen98/DDB)
+- generating two intermediate domains using the coarse-wise and the fine-wise data mixing techniques
+- cross-path knowledge distillation (multi-teacher distillation)
+- benchmark with: CycleGAN, FDA, Mixup, CutMix, ClassMix, (source only or pseudo labeling methods)
+- experiments on: GTA5 to Cityscapes, GTA5+Synscapes to Cityscapes, GTA5 to Cityscapes + Mapillary
