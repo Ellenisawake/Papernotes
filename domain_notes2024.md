@@ -29,3 +29,22 @@
 - [link](https://arxiv.org/pdf/2312.06106)
 - replace training sim images with strongly augmented views, calibration loss
 - GTAV --> Cityscapes
+
+Patch-Mix Transformer for Unsupervised Domain Adaptation: A Game Perspective
+- CVPR 2023, HKUST
+- [link](https://arxiv.org/pdf/2303.13434v2)
+- [pytorch 1.7 code (apex)](https://github.com/JinjingZhu/PMTrans)
+- ViT-based PatchMix module to build up an intermediate domain, by learning to sample patches from both source and target domains based on the game-theoretical models
+- loss: maximize cross entropy + feature/label space mixup loss
+- use attention mao from ViT to re-weight label of each patch
+- using pre-trained Swin-B model
+- experiments on: Office-Home, Office-31, DomainNet and VisDA17
+
+MIC: Masked Image Consistency for Context-Enhanced Domain Adaptation
+- CVPR 2023, ETH Zurich & Max Planck Institute for Informatics
+- [link](https://arxiv.org/pdf/2212.01322v2)
+- [code](https://github.com/lhoyer/mic)
+- learning spatial context relations of the target domain: enforces the
+consistency between predictions of masked target images
+- pseudo-labels that are generated based on the complete image by an exponential moving average teacher
+- experiments on: GTA to Cityscapes, and VisDA17
