@@ -48,6 +48,10 @@
 consistency between predictions of masked target images
 - pseudo-labels that are generated based on the complete image by an exponential moving average teacher
 - experiments on: GTA5 to Cityscapes, and VisDA17
+- follow up work:
+  - [HRDA](https://github.com/lhoyer/HRDA): Context-Aware High-Resolution Domain-Adaptive Semantic Segmentation, ECCV2022
+  - DAFormer/HRDA extension, TPAMI 2023
+  - EDAPS, ICCV 2023
 
 ## Hyperbolic Active Learning for Semantic Segmentation under Domain Shift
 - ICML 2024, Sapienza University of Rome & UC Berkeley
