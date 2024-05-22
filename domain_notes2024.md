@@ -40,14 +40,17 @@
 - using pre-trained Swin-B model
 - experiments on: Office-Home, Office-31, DomainNet and VisDA17
 
-## MIC: Masked Image Consistency for Context-Enhanced Domain Adaptation
+## MIC: Masked Image Consistency for Context-Enhanced Domain Adaptation (MIC)
 - CVPR 2023, ETH Zurich & Max Planck Institute for Informatics
-- [link](https://arxiv.org/pdf/2212.01322v2)
+- [link](https://arxiv.org/pdf/2212.01322)
 - [code](https://github.com/lhoyer/mic)
 - learning spatial context relations of the target domain: enforces the
 consistency between predictions of masked target images
 - pseudo-labels that are generated based on the complete image by an exponential moving average teacher
 - experiments on: GTA5 to Cityscapes, and VisDA17
+- benchmark with: ADVENT, ProDA, DAFormer, HRDA, DANNet
+  - DAFormer: Improving network architectures and training strategies for domain-adaptive semantic segmentation, CVPR22
+  - Advent: Adversarial entropy minimization for domain adaptation in semantic segmentation, CVPR19
 - follow up work:
   - [HRDA](https://github.com/lhoyer/HRDA): Context-Aware High-Resolution Domain-Adaptive Semantic Segmentation, ECCV2022
   - DAFormer/HRDA extension, TPAMI 2023
@@ -60,12 +63,16 @@ consistency between predictions of masked target images
 - novel interpretation of the hyperbolic radius as an indicator of data scarcity
 - using either CNN or transformer backbones
 - experiments on: GTA5/SYNTHIA to Cityscapes, Cityscapes to ACDC
+- benchmark with: source only, CBST, MADA, RIPU (active learning methods using portion of labelled target)
 
-## Deliberated Domain Bridging for Domain Adaptive Semantic Segmentation
+## Deliberated Domain Bridging for Domain Adaptive Semantic Segmentation (DDB)
 - NeurIPS 2022, University of Science and Technology of China
-- [link](https://arxiv.org/pdf/2209.07695v3)
+- [link](https://arxiv.org/pdf/2209.07695v3), [link2](https://proceedings.neurips.cc/paper_files/paper/2022/file/61aa557643ae8709b6a4f41140b2234a-Paper-Conference.pdf)
 - [code](https://github.com/xiaoachen98/DDB)
 - generating two intermediate domains using the coarse-wise and the fine-wise data mixing techniques
 - cross-path knowledge distillation (multi-teacher distillation)
 - benchmark with: CycleGAN, FDA, Mixup, CutMix, ClassMix, (source only or pseudo labeling methods)
+  - Class-balanced pixel-level self-labeling for domain adaptive semantic segmentation, CVPR22
+  - Undoing the damage of label shift for cross-domain semantic segmentation, CVPR22
+  - Prototypical pseudo label denoising and target structure learning for domain adaptive semantic segmentation, CVPR21
 - experiments on: GTA5 to Cityscapes, GTA5+Synscapes to Cityscapes, GTA5 to Cityscapes + Mapillary
