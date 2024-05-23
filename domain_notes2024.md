@@ -1,3 +1,61 @@
+## Parameter Efficient Self-Supervised Geospatial Domain Adaptation
+- CVPR 2024, 
+- [link](
+
+## Domain-Agnostic Mutual Prompting for Unsupervised Domain Adaptation
+- CVPR 2024, 
+- [link](https://github.com/TL-UESTC/DAMP)
+- CLIP embedding
+
+## Universal Semi-Supervised Domain Adaptation by Mitigating Common-Class Bias
+- CVPR 2024, ASTAT & NUS
+- [link](https://arxiv.org/pdf/2403.11234)
+- prior-guided pseudo-label refinement strategy
+
+
+## Split to Merge: Unifying Separated Modalities for Unsupervised Domain Adaptation
+- CVPR 2024, University of Electronic Science and Technology of China
+- [link](https://arxiv.org/pdf/2403.06946)
+- modality separation network
+- disentangles CLIP’s features into languageassociated and vision-associated components
+- modality discriminator
+
+## Continual-MAE: Adaptive Distribution Masked Autoencoders for Continual Test-Time Adaptation
+- CVPR 2024, Peking University
+- [link](https://sites.google.com/view/continual-mae/home)
+- Distribution-aware Masking
+- consistency constraints between the masked target samples and the original target samples
+
+## Dual Memory Networks: A Versatile Adaptation Approach for Vision-Language Models
+- CVPR 2024, HKPolyU
+- [link](https://arxiv.org/pdf/2403.17589)
+- 
+
+## Efficient Test-Time Adaptation of Vision-Language Models
+- CVPR 2024, Mohamed bin Zayed University of Artificial Intelligence, Nanyang Technological University
+- [link](https://arxiv.org/pdf/2403.18293)
+- 
+
+## Unsupervised Video Domain Adaptation with Masked Pre-Training and Collaborative Self-Training
+- CVPR 2024, Johns Hopkins University
+- [link](https://arxiv.org/pdf/2312.02914)
+- teacher model, self-supervised learning,  pseudo-labeling, self-training
+
+## Improving the Generalization of Segmentation Foundation Model under Distribution Shift via Weakly Supervised Adaptation
+- CVPR 2024, South China University of Technology
+- [link](https://arxiv.org/pdf/2312.03502)
+- 
+
+## Test time adaptation via self-training with nearest neighbor information
+- ICLR 2023, KAIST
+- [link](https://openreview.net/pdf?id=EzLtB4M1SbM)
+- 
+
+## GeoMultiTaskNet: remote sensing unsupervised domain adaptation using geographical coordinates
+- CVPR 2023 workshop, Sapienza University of Rome & Univ Gustave Eiffel
+- [link](https://openaccess.thecvf.com/content/CVPR2023W/EarthVision/papers/Marsocci_GeoMultiTaskNet_Remote_Sensing_Unsupervised_Domain_Adaptation_Using_Geographical_Coordinates_CVPRW_2023_paper.pdf)
+- 
+
 ## Gradual Domain Adaptation via Gradient Flow
 - ICLR 2024, Southern University of Science and Technology
 - [link](https://openreview.net/pdf?id=iTTZFKrlGV)
