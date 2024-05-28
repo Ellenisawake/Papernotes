@@ -114,6 +114,17 @@ consistency between predictions of masked target images
   - DAFormer/HRDA extension, TPAMI 2023
   - EDAPS, ICCV 2023
 
+## DAFormer: Improving Network Architectures and Training Strategies for Domain-Adaptive Semantic Segmentation
+- CVPR 2022, ETH Zurich
+- [DAFormer paper](https://arxiv.org/pdf/2111.14887)
+- [HRDA paper](https://arxiv.org/pdf/2304.13615)
+- [code](https://github.com/lhoyer/DAFormer)
+- Transformer encoder, multi-level context-aware feature fusion decoder
+- Rare Class Sampling on the source domain
+- Thing-Class ImageNet Feature Distance
+- learning rate warmup
+- experiments on GTA/Synthia --> Cityscapes
+
 ## Hyperbolic Active Learning for Semantic Segmentation under Domain Shift
 - ICML 2024, Sapienza University of Rome & UC Berkeley
 - [link](https://arxiv.org/pdf/2306.11180v4)
