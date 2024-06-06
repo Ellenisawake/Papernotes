@@ -119,6 +119,20 @@ https://git.tu-berlin.de/rsim/BigEarthNet-MM_19-classes_models (TensorFlow)
 
 
 # Datasets
+
+## FLAIR: French Land cover from Aerospace ImageRy
+- [link](https://ignf.github.io/FLAIR/#FLAIR2)
+- [paper](https://arxiv.org/pdf/2305.14467)
+- aerial images at 0.2m pixel size (RGB,NIR,depth) and sentinel images at 10m pixel size
+- 77762 512x512 patches, 13 semantic classes (+6 optional ones)
+- 50 spatio-temporal domains and 916 areas covering 817 km²
+- FLAIR1: semantic segmentation on aerial images, FLAIR2: fusion of different resolution images
+- baseline:
+  - U-TAE network applied to the Sentinel-2 super-patch time series
+  - UNet applied to the mono-date aerial imagery patch
+- evaluation: class-average mIoU
+
+
 ## DeepGlobe Land Cover Classification Challenge dataset
 - 1,146 satellite images of size 2448 x 2448 pixels
 - training [dataset](https://www.kaggle.com/datasets/geoap96/deepglobe2018-landcover-segmentation-traindataset) with 803 images 
