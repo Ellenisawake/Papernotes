@@ -123,6 +123,7 @@ https://git.tu-berlin.de/rsim/BigEarthNet-MM_19-classes_models (TensorFlow)
 ## FLAIR: French Land cover from Aerospace ImageRy
 - [link](https://ignf.github.io/FLAIR/#FLAIR2)
 - [paper](https://arxiv.org/pdf/2305.14467)
+- [FLAIR1 paper](https://arxiv.org/pdf/2211.12979)
 - aerial images at 0.2m pixel size (RGB,NIR,depth) and sentinel images at 10m pixel size
 - 77762 512x512 patches, 13 semantic classes (+6 optional ones)
 - 50 spatio-temporal domains and 916 areas covering 817 km²
