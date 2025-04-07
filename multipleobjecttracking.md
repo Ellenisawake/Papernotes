@@ -70,6 +70,11 @@ Metrics: HOTA, MOTA, MOTP, IDF1
 - task-specific image-level segmentation and class/task-agnostic bi-directional temporal propagation
 - [github](https://github.com/hkchengrex/Tracking-Anything-with-DEVA)
 - UIUC & Adobe, ICCV23
+#### Grounded SAM 2: Ground and Track Anything in Videos
+- Grounding DINO and SAM 2
+-   Transformer-based detector DINO with grounded pre-training
+- [github](https://github.com/IDEA-Research/Grounded-SAM-2)
+
 #### VISAGE: Video Instance Segmentation with Appearance-Guided Enhancement
 - [GitHub](https://github.com/KimHanjung/VISAGE?tab=readme-ov-file)
 - ECCV24
