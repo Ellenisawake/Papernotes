@@ -56,14 +56,25 @@ Metrics: HOTA, MOTA, MOTP, IDF1
 - focus on object transformations
   
 ### Algorithms
+#### SeqFormer
+- ECCV22, based on Deformable DETR and VisTR
+- [model zoo](https://github.com/wjf5203/SeqFormer)
+#### SAM 2: Segment Anything in Images and Videos
+- Meta, [github](https://github.com/facebookresearch/sam2)
+#### Cutie: Putting the Object Back
+- a follow-up work of XMem, support interactive segmentation
+- [github](https://github.com/hkchengrex/Cutie?tab=readme-ov-file)
+- UIUC & Adobe
+#### DEVA: Tracking Anything with Decoupled Video Segmentation
+- long-term, open-vocabulary video segmentation with text-prompts out-of-the-box
+- task-specific image-level segmentation and class/task-agnostic bi-directional temporal propagation
+- [github](https://github.com/hkchengrex/Tracking-Anything-with-DEVA)
+- UIUC & Adobe, ICCV23
 #### VISAGE: Video Instance Segmentation with Appearance-Guided Enhancement
 - [GitHub](https://github.com/KimHanjung/VISAGE?tab=readme-ov-file)
 - ECCV24
 - explicitly extract embeddings from backbone features and drive queries to capture the appearances of objects
 
-#### SeqFormer
-- ECCV22, based on Deformable DETR and VisTR
-- [model zoo](https://github.com/wjf5203/SeqFormer)
 
 #### 1st place on YouTube-VIS 2022
 - [first place on VIS](https://youtube-vos.org/assets/challenge/2022/reports/VIS_1st.pdf)
@@ -89,8 +100,6 @@ queries as input
 - [2nd place on YouTube-VIS 2022](https://arxiv.org/pdf/2206.07011)
 - Microsoft
 
-#### SAM 2: Segment Anything in Images and Videos
-- Meta, [github](https://github.com/facebookresearch/sam2)
 
 #### DVIS, 1st place on YouTube-VIS 2023
 - decouple tasks into segmentation, tracking and refinement
