@@ -38,9 +38,82 @@ Metrics: HOTA, MOTA, MOTP, IDF1
 - evaluation metrics: AP, AR, 
 - [website](https://youtube-vos.org/dataset/vis/)
 - [tech report](https://arxiv.org/pdf/1905.04804)
+- [leaderboard](https://youtube-vos.org/challenge/2022/leaderboard/)
+- [first place on VIS](https://youtube-vos.org/assets/challenge/2022/reports/VIS_1st.pdf)
+- [2nd place on VIS](https://arxiv.org/pdf/2206.07011)
+- [LSVOS challenge 2024](https://lsvos.github.io/)
 
+#### LVOS: long-term video object segmentation dataset
+- part of LSVOS challenge 2024
+- Each sequence lasting 1.14 minutes on average (!)
+- 12 animal classes: elephant, sheep, giraffe, goldfish, lion, bear, zebra, tiger, monkey, kangaroo, shark, gorilla
+- evaluation metrics: Region Similarity, Contour Accuracy, and Standard Deviation
+- workshop and challenge at ICCV2023
+- [website](https://lingyihongfd.github.io/lvos.github.io/)
+- [paper](https://arxiv.org/pdf/2211.10181)
+
+#### VOST: Video Object Segmentation under Transformations
+- focus on object transformations
+  
 ### Algorithms
 #### VISAGE: Video Instance Segmentation with Appearance-Guided Enhancement
 - [GitHub](https://github.com/KimHanjung/VISAGE?tab=readme-ov-file)
 - ECCV24
+- explicitly extract embeddings from backbone features and drive queries to capture the appearances of objects
 
+#### SeqFormer
+- ECCV22, based on Deformable DETR and VisTR
+- [model zoo](https://github.com/wjf5203/SeqFormer)
+
+#### 1st place on YouTube-VIS 2022
+- [first place on VIS](https://youtube-vos.org/assets/challenge/2022/reports/VIS_1st.pdf)
+- ByteDance
+- Deformable DETR, dynamic mask head, simulateneously predict box+class+mask (SeqFormer)
+- contrastive learning between a key frame and a reference frame
+  - reference frame is selected from temporal neighborhood of key frame
+  - what if no positive sample on the reference frame, e.g., object instance not found???
+- empty memory bank on initialization
+- CNN backbone (ResNet-50) extracts multi-scale feature maps
+- deformable DETR module takes the feature maps with additional fixed positional encodings and N learnable object
+queries as input
+- a light-weighted FFN as a contrastive head to decode the contrastive embeddings from the instance features
+- object queries are first transformed into output embeddings by the transformer decoder, then decoded into box coordinates, class labels, and instance masks
+- $L=L_cls + \lambda1 * L_box + \lambda2 * L_mask + \lambda3 * L_emb$
+- number of object queries is set to 300
+- pre-trained on the MS COCO 2017 for segmentation head, random crops from COCO to pretrain constrastive learning head
+- multi-crops during training at 11 scales (320-640), test at both single/multi-scales
+- 4 pairs per GPU, 8 GPU, 12k iterations
+- ensemble Swin-L and ConvNext-L
+
+#### Consistent Video Instance Segmentation with Inter-Frame Recurrent Attention
+- [2nd place on YouTube-VIS 2022](https://arxiv.org/pdf/2206.07011)
+- Microsoft
+
+#### SAM 2: Segment Anything in Images and Videos
+- Meta, [github](https://github.com/facebookresearch/sam2)
+
+#### DVIS, 1st place on YouTube-VIS 2023
+- decouple tasks into segmentation, tracking and refinement
+  - focus on robustly associating objects across adjacent frames, refiner to improve both segmentation & tracking
+- based on Mask2Former
+- tracker and refiner operate exclusively on the instance representations output by the segmenter
+- R50/Swin-L backbone
+- tracker and refiner can be trained separately while keeping other components frozen
+  - trained on a single GPU with 11G memory
+- Wuhan University & Kuaishou Technology 
+- [model zoo](https://github.com/zhang-tao-whu/DVIS/tree/main)
+- [tech report on arXiv with further improvements to DVIS for the challenge](https://arxiv.org/pdf/2308.14392)
+- [DVIS paper](https://arxiv.org/pdf/2306.03413)
+
+#### CSS-Segment, 2nd place on LSVOS challenge 2024
+-  CSS-Segment by efficiently integrating the advantageous modules of Cutie, SAM, and SAM2
+- Xidian University
+- [paper](https://arxiv.org/pdf/2408.13582)
+
+#### 3rd place on LSVOS challenge 2024
+- combines Cutie and SAM2
+- Xidian University
+- [paper](https://arxiv.org/pdf/2408.10469)
+
+
+- []()
