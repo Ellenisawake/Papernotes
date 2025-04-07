@@ -30,6 +30,7 @@ Metrics: HOTA, MOTA, MOTP, IDF1
 ## VIS
 ### Benchmarks
 #### YouTube-VIS
+
 - animal class (eagle, shark, horse, cow, person, ape, giant panda, parrot, lizard, dog, monkey, cat, rabbit, snake, duck, fox, bear, turtle, leopard, fish, deer, zebra, owl, giraffe, elephant, frog, tiger, mouse, seal)
   - 
 - 2019 version: 2238 train + 302 val + 343 test, 40 catefories, 4883 instances, 131k annotations
