@@ -76,6 +76,7 @@ Metrics: HOTA, MOTA, MOTP, IDF1
 - Grounding DINO and SAM 2
 -   Transformer-based detector DINO with grounded pre-training
 - [github](https://github.com/IDEA-Research/Grounded-SAM-2)
+- [grounded-sam](https://github.com/IDEA-Research/Grounded-Segment-Anything)
 
 #### Grounding DINO
 - DETR with Improved deNoising anchOr boxes
