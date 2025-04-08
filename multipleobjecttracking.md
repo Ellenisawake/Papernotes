@@ -13,6 +13,13 @@ Metrics: HOTA, MOTA, MOTP, IDF1
 #### Tracking any object dataset and benchmark (TAO)
 - cat, dog, swan
 
+#### AnimalTrack
+- IJCV2023
+- 10 animal classes, including pig (rabbit, chicken, goose, duck, horse)
+- 9-11 seconds of videos of multiple fast-moving animals
+- [website](https://hengfan2010.github.io/projects/AnimalTrack/))
+- [paper](https://arxiv.org/pdf/2205.00158)
+
 ### Algorithms
 #### BoostTrack++
 - SOTA on MOT20
@@ -57,6 +64,11 @@ Metrics: HOTA, MOTA, MOTP, IDF1
 #### VOST: Video Object Segmentation under Transformations
 - focus on object transformations
   
+#### DAVIS
+- diverse categories, including dogs/cats/cows etc.
+- semi-supervised and unsupervised segmentation
+- [website](https://davischallenge.org/index.html)
+
 ### Algorithms
 #### SeqFormer
 - ECCV22, based on Deformable DETR and VisTR
