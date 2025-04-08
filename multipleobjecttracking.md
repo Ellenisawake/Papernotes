@@ -30,6 +30,7 @@ Metrics: HOTA, MOTA, MOTP, IDF1
 ## VIS
 ### Benchmarks
 #### YouTube-VIS
+----
 
 - animal class (eagle, shark, horse, cow, person, ape, giant panda, parrot, lizard, dog, monkey, cat, rabbit, snake, duck, fox, bear, turtle, leopard, fish, deer, zebra, owl, giraffe, elephant, frog, tiger, mouse, seal)
   - 
@@ -107,7 +108,7 @@ queries as input
 - Microsoft
 
 
-#### DVIS, 1st place on YouTube-VIS 2023
+#### DVIS, 1st place on YouTube-VIS 2023 :fire:
 - decouple tasks into segmentation, tracking and refinement
   - focus on robustly associating objects across adjacent frames, refiner to improve both segmentation & tracking
 - based on Mask2Former
@@ -120,7 +121,7 @@ queries as input
 - [tech report on arXiv with further improvements to DVIS for the challenge](https://arxiv.org/pdf/2308.14392)
 - [DVIS paper](https://arxiv.org/pdf/2306.03413)
 
-#### CSS-Segment, 2nd place on LSVOS challenge 2024
+#### CSS-Segment, 2nd place on LSVOS challenge 2024 :fire:
 -  CSS-Segment by efficiently integrating the advantageous modules of Cutie, SAM, and SAM2
 - Xidian University
 - [paper](https://arxiv.org/pdf/2408.13582)
