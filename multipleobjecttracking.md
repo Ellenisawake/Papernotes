@@ -77,6 +77,10 @@ Metrics: HOTA, MOTA, MOTP, IDF1
 -   Transformer-based detector DINO with grounded pre-training
 - [github](https://github.com/IDEA-Research/Grounded-SAM-2)
 
+#### Grounding DINO
+- DETR with Improved deNoising anchOr boxes
+- [paper](https://arxiv.org/pdf/2303.05499)
+
 #### VISAGE: Video Instance Segmentation with Appearance-Guided Enhancement
 - [GitHub](https://github.com/KimHanjung/VISAGE?tab=readme-ov-file)
 - ECCV24
