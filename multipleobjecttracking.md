@@ -35,6 +35,23 @@ Metrics: HOTA, MOTA, MOTP, IDF1
 - ReID features
 - AICity'24 dataset, WildTrack dataset
 
+#### LTTrack: Rethinking the Tracking Framework for Long-Term Multi-Object Tracking
+- Sichuan University, TCSVT2024
+- Position-Based Association module, encodes relative and absolute positions as interaction and motion features
+- long-lost target re-identification
+- Zombie Track Re-Match
+- experiments on MOT17, MOT20, and DanceTrack
+- [github](https://github.com/Lin-Jiaping/LTTrack)
+
+#### An HMM-based framework for identity-aware long-term multi-object tracking from sparse and uncertain identification: use case on long-term tracking in livestock
+- CV4Animals workshop at CVPR24, Laval university Canada
+- [paper](https://drive.google.com/file/d/1_-6oLD4X2FHp3bo-Qp4PDtcpEMWr0kIL/view)
+- combine uncertainty identity with tracking information
+- 10-minute pig tracking dataset with 21 id at the feeding station of pen
+- [github](https://github.com/ngobibibnbe/uncertain-identity-aware-tracking)
+- [cv4animals 2024 archive](https://www.cv4animals.com/2024-home)
+
+
 ## VIS
 ### Benchmarks
 #### YouTube-VIS
