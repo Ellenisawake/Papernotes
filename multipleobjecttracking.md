@@ -2,6 +2,10 @@
 Methods: tracking-by-detection, end-to-end
 
 Metrics: HOTA, MOTA, MOTP, IDF1
+## Overview
+#### Deep Learning-Based Multi-Object Tracking
+- [2025 review paper](https://arxiv.org/pdf/2506.13457)
+
 
 ## MOT
 ### Benchmarks
