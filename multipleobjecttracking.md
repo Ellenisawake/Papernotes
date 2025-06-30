@@ -25,6 +25,18 @@ Metrics: HOTA, MOTA, MOTP, IDF1
 - [paper](https://arxiv.org/pdf/2205.00158)
 
 ### Algorithms
+#### CAMELTrack: Context-Aware Multi-cue ExpLoitation for Online Multi-Object Tracking
+- UCLouvain, 2025 ArXiv
+- an association method which can utlise different types of cues (box, keypoints etc) for detection-tracklet association
+- employs two transformerbased modules 
+- association-centric training scheme 
+- model the complex interactions between tracked targets and their various association cues
+- a set of Temporal Encoders (TE) that aggregate each tracking cue into tracklet-level representations
+- a Group-Aware Feature-Fusion Encoder (GAFFE) that jointly transforms all cues into unified disentangled representations for each tracklet and detection
+- [paper](https://arxiv.org/pdf/2505.01257)
+- [github](https://github.com/TrackingLaboratory/CAMELTrack)
+
+
 #### BoostTrack++
 - SOTA on MOT20
 - Improved similarity score calculation: shape+ Mahalanobis distance+soft BIoU, on top of BoostTrack+
