@@ -35,6 +35,13 @@
 - [paper](https://www.scitepress.org/Papers/2025/131701/131701.pdf)
 
 ## Pose
+### MT-SRNet: A Transferable Multi-Task Super-Resolution Network for Pig Keypoint Detection, Segmentation, and Posture Estimation
+- Tomas Norton, Catholic University of Leuven, accepted May 2025
+- [Computers and Electronics paper](https://www.sciencedirect.com/science/article/abs/pii/S0168169925006398?via%3Dihub)
+- a Rotated Bounding Box (RBB) detector combined with an Auto-Visual Prompt strategy
+- a Multi-task Super-Resolution Network (MT-SRnet) simultaneously predicting pig keypoints, masks, and postures from low-resolution inputs
+- [project page](https://gitlab.kuleuven.be/m3-biores/public/m3pig)
+
 ### YOLOPose
 - https://github.com/ultralytics/ultralytics/issues/1915
 - https://docs.ultralytics.com/tasks/pose/#models
