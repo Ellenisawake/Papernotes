@@ -55,3 +55,7 @@
 - https://github.com/open-mmlab/mmpose/blob/main/demo/docs/en/2d_animal_demo.md
 
 ## Dataset
+### PigLife
+- UIUC, 2023, 16GB
+- detection, segmentation, posture & behavior labels, occlusion,
+- [dataset page](https://data.aifarms.org/view/piglife)
