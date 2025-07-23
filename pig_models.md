@@ -31,11 +31,24 @@
 - [paper](https://arxiv.org/pdf/2505.21635)
 
 ## Detection
+### Towards automatic farrowing monitoring—A Noisy Student approach for improving detection performance of newborn piglets
+- Germany
+- a Noisy Student approach to automatically generate annotation information, teacher-student model
+- transform the image structure and generate pseudo-labels for the object classes piglet and tail
+- a unique dataset for the detection and evaluation of newborn piglets and sow body parts
+- [2024 paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0310818)
+
+### Multistage pig identification using a sequential ear tag detection pipeline
+- detect pigs, localize ear tags, perform rotation correction via pin detection, and recognize digits
+- generating a reliable ID proposal
+- publicly proposing three custom datasets for ear tag, pin, and digit detection
+- [2025 Scientific Reports paper](https://www.nature.com/articles/s41598-025-05283-8)
+
+## Pose
 ### Multi-Object Keypoint Detection and Pose Estimation for Pigs
 - 2025, Eindhoven University of Technology
 - [paper](https://www.scitepress.org/Papers/2025/131701/131701.pdf)
 
-## Pose
 ### MT-SRNet: A Transferable Multi-Task Super-Resolution Network for Pig Keypoint Detection, Segmentation, and Posture Estimation
 - Tomas Norton, Catholic University of Leuven, accepted May 2025
 - [Computers and Electronics paper](https://www.sciencedirect.com/science/article/abs/pii/S0168169925006398?via%3Dihub)
