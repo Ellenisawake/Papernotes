@@ -13,6 +13,7 @@
 - support YOLO, YOLOX, RTMDet, RTDetr
 - 
 
+
 ### NetTrack: Tracking Highly Dynamic Objects with a Net
 - CVPR24
 - [project](https://george-zhuang.github.io/nettrack/)
@@ -63,19 +64,16 @@
 
 ## Dataset
 ### PigTrack
-- 80 video sequences, conventional pig farming, top view cameras, axis-aligned boxes
+- Benchmarking pig detection and tracking under diverse and challenging conditions
+- University of Gottingen Germany, 2025
+- 80 video sequences, conventional pig farming, top view cameras, axis-aligned boxes, 24.3GB
 - Model weights of MOTRv2 and MOTIP trained for pig tracking
-- 2025, 24.3GB
-- SORT-based methods achieve superior detection performance compared to end-to-end trainable models
-  - tracking-by-detection, Kalman Filters for motion prediction
-  - Hungarian algorithm for data association via IoU-based cost matrix
-  - real-time, minimal computational overhead
-- DeepSORT: add appearance embeddings, Mahalanobis distance + cosine distance of appearance features
-  - Matching is based on a combined motion + appearance distance metric
-  - same Kalman Filter structure for motion modeling
+- built on top of TrackEval, MOTR, ByteTrack, Deformable DETR, YOLOX, OC-SORT, DanceTrack, BDD100K, mmdetection
 - end-to-end models show better association performance
 - [homepage](https://data.goettingen-research-online.de/dataset.xhtml?persistentId=doi:10.25625/P7VQTP)
 - [github](https://github.com/jonaden94/PigBench)
+- [2025 paper](https://arxiv.org/pdf/2507.16639)
+
 
 ### PigLife
 - UIUC, 2023, 16GB
