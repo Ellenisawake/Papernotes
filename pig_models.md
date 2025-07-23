@@ -54,8 +54,15 @@
 - https://github.com/jgraving/DeepPoseKit-Data/tree/master/datasets/zebra
 - https://github.com/open-mmlab/mmpose/blob/main/demo/docs/en/2d_animal_demo.md
 
+## Multimodal methods
+### Transformer-based audio-visual multimodal fusion for fine-grained recognition of individual sow nursing behaviour
+- South China Agricultural University
+- Audio-visual fusion framework for sow nursing sound and behaviour recognition
+- Sound source localisation system
+- [paper in Artificial Intelligence in Agriculture 2025](https://www.sciencedirect.com/science/article/pii/S2589721725000376)
+
 ## Dataset
-## PigTrack
+### PigTrack
 - 80 video sequences, conventional pig farming, top view cameras, axis-aligned boxes
 - Model weights of MOTRv2 and MOTIP trained for pig tracking
 - 2025, 24.3GB
