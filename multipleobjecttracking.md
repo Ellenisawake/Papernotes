@@ -67,14 +67,26 @@ Metrics: HOTA, MOTA, MOTP, IDF1
 - [github](https://github.com/ngobibibnbe/uncertain-identity-aware-tracking)
 - [cv4animals 2024 archive](https://www.cv4animals.com/2024-home)
 
+#### Simple Online and Realtime Tracking -based methods (SORT)
+- tracking-by-detection, robust for limited data
+- Kalman Filters for motion prediction
+- Hungarian algorithm for data association via IoU-based cost matrix
+- real-time, minimal computational overhead
+- **DeepSORT**: add appearance embeddings
+  - Mahalanobis distance + cosine distance of appearance features
+  - Matching is based on a combined motion + appearance distance metric
+  - same Kalman Filter structure for motion modeling
+- other extensions
+  - ByteTrack: Uses low-confidence detections in association, improving recall
+  - OC-SORT: Adds a non-linear observer model to reduce ID switches and improve long-term tracking
+  - BoT-SORT: Integrates stronger Re-ID models and IoU-based association strategies
+  - FairMOT: Combines detection and Re-ID feature learning in a single network for efficiency 
 
 ## VIS
 ### Benchmarks
 #### YouTube-VIS
-----
-
-- animal class (eagle, shark, horse, cow, person, ape, giant panda, parrot, lizard, dog, monkey, cat, rabbit, snake, duck, fox, bear, turtle, leopard, fish, deer, zebra, owl, giraffe, elephant, frog, tiger, mouse, seal)
-  - 
+- animal class
+  - eagle, shark, horse, cow, person, ape, giant panda, parrot, lizard, dog, monkey, cat, rabbit, snake, duck, fox, bear, turtle, leopard, fish, deer, zebra, owl, giraffe, elephant, frog, tiger, mouse, seal
 - 2019 version: 2238 train + 302 val + 343 test, 40 catefories, 4883 instances, 131k annotations
 - 2021 version: 2985 train + 421 val + 453 test, improved 40 catefories, 8171 instances, 232k annotations
 - 2022 version: additional long videos for val/test
