@@ -92,3 +92,11 @@
 - UIUC, 2023, 16GB
 - detection, segmentation, posture & behavior labels, occlusion,
 - [dataset page](https://data.aifarms.org/view/piglife)
+
+## Review
+Harnessing contactless monitoring technology for sows and piglets within farrowing pens: A critical review
+- City University of Hong Kong, Smart Agricultural Technology 2025
+- optical, infrared, audio, and radio-based sensing techniques
+- applications in farrowing pens are then presented, which span from daily monitoring of sows and piglets to event-specific tasks (e.g., farrowing prediction, lactation behavior analysis, crushing detection, and health indicator monitoring)
+- [Science Direct Paper](https://www.sciencedirect.com/science/article/pii/S2772375525005520?ref=cra_js_challenge&fr=RR-1)
+
