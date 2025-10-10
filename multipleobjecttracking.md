@@ -31,6 +31,10 @@ Metrics: HOTA, MOTA, MOTP, IDF1
 - [paper](https://arxiv.org/pdf/2403.16848)
 - [github](https://github.com/MCG-NJU/MOTIP)
 
+#### MOTRv2: Bootstrapping End-to-End Multi-Object Tracking by Pretrained Object Detectors
+- [paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_MOTRv2_Bootstrapping_End-to-End_Multi-Object_Tracking_by_Pretrained_Object_Detectors_CVPR_2023_paper.pdf)
+- [githun](https://github.com/megvii-research/MOTRv2)
+
 #### CAMELTrack: Context-Aware Multi-cue ExpLoitation for Online Multi-Object Tracking
 - UCLouvain, 2025 ArXiv
 - an association method which can utlise different types of cues (box, keypoints etc) for detection-tracklet association
