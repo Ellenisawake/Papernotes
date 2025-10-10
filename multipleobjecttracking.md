@@ -25,6 +25,12 @@ Metrics: HOTA, MOTA, MOTP, IDF1
 - [paper](https://arxiv.org/pdf/2205.00158)
 
 ### Algorithms
+#### Multiple Object Tracking as ID Prediction (MOTIP)
+- CVPR25, Nanjing University
+- Deforamable DETR, ID Decoder, MOTR
+- [paper](https://arxiv.org/pdf/2403.16848)
+- [github](https://github.com/MCG-NJU/MOTIP)
+
 #### CAMELTrack: Context-Aware Multi-cue ExpLoitation for Online Multi-Object Tracking
 - UCLouvain, 2025 ArXiv
 - an association method which can utlise different types of cues (box, keypoints etc) for detection-tracklet association
