@@ -27,13 +27,18 @@ Metrics: HOTA, MOTA, MOTP, IDF1
 ### Algorithms
 #### Multiple Object Tracking as ID Prediction (MOTIP)
 - CVPR25, Nanjing University
-- Deforamable DETR, ID Decoder, MOTR
+- leveraging object-level features as tracking cues, decodes the ID labels for current detections
+  - trainable ID Decoder head
+- built on top of Deforamable DETR, MOTR
 - [paper](https://arxiv.org/pdf/2403.16848)
 - [github](https://github.com/MCG-NJU/MOTIP)
 
 #### MOTRv2: Bootstrapping End-to-End Multi-Object Tracking by Pretrained Object Detectors
+- CVPR23, Megvii
+- improvement over MOTR (end-to-end tracking with transformer): use separate strong pre-trained detector (YOLOX) to provide more accurate boxes as anchors for MOTR
+- DanceTrack, BDD100K
 - [paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_MOTRv2_Bootstrapping_End-to-End_Multi-Object_Tracking_by_Pretrained_Object_Detectors_CVPR_2023_paper.pdf)
-- [githun](https://github.com/megvii-research/MOTRv2)
+- [github](https://github.com/megvii-research/MOTRv2)
 
 #### CAMELTrack: Context-Aware Multi-cue ExpLoitation for Online Multi-Object Tracking
 - UCLouvain, 2025 ArXiv
