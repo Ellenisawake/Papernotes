@@ -48,6 +48,12 @@ Metrics: HOTA, MOTA, MOTP, IDF1
 - model the complex interactions between tracked targets and their various association cues
 - a set of Temporal Encoders (TE) that aggregate each tracking cue into tracklet-level representations
 - a Group-Aware Feature-Fusion Encoder (GAFFE) that jointly transforms all cues into unified disentangled representations for each tracklet and detection
+- ReId model/embeddings: BPBReID, KPR (ECCV24)
+  - ReId dataset using train/val splits of MOT dataset
+  - swin transformer backbone with SOLIDER person foundation model
+  - 34.4\% mAP on DanceTrack
+  - split training to two halve, use reid model trained on one half to produce embeddings for the other half to avoid overfitting embeddings
+  - val set embeddings using reid model trained on full train set
 - [paper](https://arxiv.org/pdf/2505.01257)
 - [github](https://github.com/TrackingLaboratory/CAMELTrack)
 
