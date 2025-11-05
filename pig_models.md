@@ -78,7 +78,10 @@
 ## Dataset
 ### SPMF-YOLO-Tracker: A Method for Quantifying Individual Activity Levels and Assessing Health in Newborn Piglets
 - Nanjing Agricultural University, 2025, Agriculture
-- enhances small-object detection performance by incorporating the SPDConv module, the MFM module, and the NWD loss function into YOLOv11
+- enhances small-object detection by: SPDConv, MFM module, NWD loss function into YOLOv11
+  - spatial–depth feature conversion module (SPDConv): transforms spatial structural information from layer P2 into depth-dimensional signals, thereby enriching low-level structural features
+  - Modulation Fusion Module (MFM): performs attention-weighted fusion of feature maps across different resolutions
+  - Normalized Wasserstein Distance as loss function instead of iou, improves localization for small or ambiguous targets
 - ByteTrack
 - quantified the cumulative movement distance of each newborn piglet within 30 min after birth
 - Data: April 2025, Nanshang Nongke Pig Farm in Nanyang City, Henan Province
@@ -94,7 +97,9 @@
 - Tracking dataset: 33 2.5 min clips from 10 farrowing pens
   - covered different stages from the sow’s farrowing process to the post-farrowing period
   - eight clips were selected from two low-light pens
-  - sample one image every 25 frames
+  - sample one image every 25 frames, 4950 images in total
+  - X-AnyLabeling 2.5.4, 
+- input resolution of 640 × 640, 300 epochs, batch size 24, 
 - [paper](https://www.mdpi.com/2077-0472/15/19/2087#)
 
 ### PigTrack
