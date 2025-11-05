@@ -76,6 +76,27 @@
 - [paper in Artificial Intelligence in Agriculture 2025](https://www.sciencedirect.com/science/article/pii/S2589721725000376)
 
 ## Dataset
+### SPMF-YOLO-Tracker: A Method for Quantifying Individual Activity Levels and Assessing Health in Newborn Piglets
+- Nanjing Agricultural University, 2025, Agriculture
+- enhances small-object detection performance by incorporating the SPDConv module, the MFM module, and the NWD loss function into YOLOv11
+- ByteTrack
+- quantified the cumulative movement distance of each newborn piglet within 30 min after birth
+- Data: April 2025, Nanshang Nongke Pig Farm in Nanyang City, Henan Province
+  - sows were of the Large White breed
+  - Each pen housed one sow and a variable number of newborn piglets, ranging from 7 to 14, and was fitted with plastic slatted flooring and iron guardrails
+  - Heat lamps were installed in the piglet activity areas, while natural daylight provided overall illumination
+  - hemispherical camera (DS-2CD3326WDV3-I, Hikvision was mounted 1.8 m
+  - 25 fps, 1920 × 1080
+  - from the onset of farrowing to 30 min after delivery
+  - For object detection, one frame was sampled every two seconds from the surveillance videos. We then used optical flow to compute the average motion magnitude between adjacent frames and the structural similarity index (SSIM) to remove redundant high-similarity frames
+- Detection dataset: 1780 images, 1246 training, 267 validation, 267 test
+  - annotated with the open-source software LabelMe 3.16.2
+- Tracking dataset: 33 2.5 min clips from 10 farrowing pens
+  - covered different stages from the sow’s farrowing process to the post-farrowing period
+  - eight clips were selected from two low-light pens
+  - sample one image every 25 frames
+- [paper](https://www.mdpi.com/2077-0472/15/19/2087#)
+
 ### PigTrack
 - Benchmarking pig detection and tracking under diverse and challenging conditions
 - University of Gottingen Germany, 2025
