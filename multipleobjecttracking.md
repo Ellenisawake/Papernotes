@@ -216,4 +216,7 @@ queries as input
 - [paper](https://arxiv.org/pdf/2408.10469)
 
 
-- []()
+# Useful Resources
+## SOTA Benchmarks
+
+- [MOT](https://hyper.ai/en/sota/tasks/multi-object-tracking)
