@@ -57,6 +57,20 @@ Metrics: HOTA, MOTA, MOTP, IDF1
 - [paper](https://arxiv.org/pdf/2505.01257)
 - [github](https://github.com/TrackingLaboratory/CAMELTrack)
 
+#### Object Permanence Emerges in a Random Walk along Memory
+- ICML 2022
+- [paper](https://arxiv.org/pdf/2204.01784)
+
+#### HybridTrack: A Hybrid Approach for Robust Multi-Object Tracking
+- IEEE ROBOTICS AND AUTOMATION LETTERS, MAY, 2025
+- 3D, TBD, data-driven Kalman Filter
+- learns the transition residual and Kalman gain directly from dat
+
+#### A Multi-Modal Fusion-Based 3D Multi-Object Tracking Framework With Joint Detection
+- EEE Robotics and Automation Letters 2025
+- integrates object detection and multi-object tracking into a single model
+- confidence fusion module is designed to guide non-maximum suppression for trajectories and detections
+- KITTI and Waymo datasets
 
 #### BoostTrack++
 - SOTA on MOT20
