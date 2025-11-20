@@ -76,6 +76,14 @@
 - [paper in Artificial Intelligence in Agriculture 2025](https://www.sciencedirect.com/science/article/pii/S2589721725000376)
 
 ## Dataset
+### OinkTrack
+- over five hours of annotated video across sixteen sequences, ABBs
+- sequence ranges from one minute to one hour
+- ACM Multimedia 2025
+- [paper](https://dl.acm.org/doi/10.1145/3746027.3758189)
+- [project page](https://leohuang0511.github.io/oinktrack-page/)
+
+
 ### SPMF-YOLO-Tracker: A Method for Quantifying Individual Activity Levels and Assessing Health in Newborn Piglets
 - Nanjing Agricultural University, 2025, Agriculture
 - enhances small-object detection by: SPDConv, MFM module, NWD loss function into YOLOv11
