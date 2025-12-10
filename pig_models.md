@@ -6,6 +6,8 @@
 - [paper](https://arxiv.org/pdf/2511.02591)
 - [github](https://github.com/ecker-lab/SAM2-Animal-Tracking)
 
+### GTA: Global Tracklet Association for Multi-Object Tracking in Sports
+- [paper](https://arxiv.org/abs/2411.08216)
 
 ### CAMELTrack: Context-Aware Multi-cue ExpLoitation for Online Multi-Object Tracking
 - [github](https://github.com/TrackingLaboratory/CAMELTrack?tab=readme-ov-file)
