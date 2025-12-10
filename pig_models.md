@@ -1,5 +1,12 @@
 
 ## Tracking
+### Zero-Shot Multi-Animal Tracking in the Wild
+- We modify SAM2MOT for multi-animal tracking
+- adaptive detection threshold
+- [paper](https://arxiv.org/pdf/2511.02591)
+- [github](https://github.com/ecker-lab/SAM2-Animal-Tracking)
+
+
 ### CAMELTrack: Context-Aware Multi-cue ExpLoitation for Online Multi-Object Tracking
 - [github](https://github.com/TrackingLaboratory/CAMELTrack?tab=readme-ov-file)
 - employs two transformer-based modules
