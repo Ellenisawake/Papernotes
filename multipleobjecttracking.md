@@ -9,6 +9,15 @@ Metrics: HOTA, MOTA, MOTP, IDF1
 
 ## MOT
 ### Benchmarks
+#### MMOT: Drone-based Multispectral Multi-Object Tracking
+- NeurIPS 2025, Beijing Institute of Technology
+- [Github](https://github.com/Annzstbl/MMOT)
+- 125 video sequences, over 488.8K annotations across eight object categories
+-  extreme small targets, high-density scenarios, severe occlusions, and complex platform motion
+- lightweight Spectral 3D-Stem
+- orientation-aware Kalman filter, end-to-end orientation-adaptive transformer
+- SORT, ByteTrack, MOTR, MOTIP, MeMOTR etc
+
 #### AI City Challenge Multi-Camera People Tracking
 - tracking people across multiple cameras using an expanded synthetic dataset
 - 1300 cameras, 3400 people, HOTA metric in 3D
