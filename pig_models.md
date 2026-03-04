@@ -1,5 +1,14 @@
 
 ## Tracking
+### Don’t get lost in the crowd: Graph convolutional network for online animal tracking in dense groups
+- Computers and Electronics in Agriculture 2023
+- Tomas Norton, KU Leuven
+- long-term (>10mins) animal tracking, group-housed pigs, OBBs
+- [M3PIG GitLab](https://gitlab.kuleuven.be/m3-biores/public/m3pig)
+- M3det: Where's your head at? Pig Detection using Rotated and Oriented Bounding Boxes
+- M3track: Don’t get lost in the crowd: Graph convolutional network for online animal tracking in dense groups
+- M3KPS: MT-HRnet: A Transferable Muti-Task Super-Resolution Network for Addressing Pig Keypoints, Mask and Posture
+
 ### Zero-Shot Multi-Animal Tracking in the Wild
 - We modify SAM2MOT for multi-animal tracking
 - adaptive detection threshold
