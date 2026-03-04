@@ -9,6 +9,14 @@
 - M3track: Don’t get lost in the crowd: Graph convolutional network for online animal tracking in dense groups
 - M3KPS: MT-HRnet: A Transferable Muti-Task Super-Resolution Network for Addressing Pig Keypoints, Mask and Posture
 
+### ORP-Byte: A multi-object tracking method of pigs that combines Oriented RepPoints and improved Byte
+- [paper](https://www.sciencedirect.com/science/article/pii/S016816992400173X#s0010)
+- Computers and Electronics in Agriculture, 2024
+- detection dataset contained 7200 images, rotated bboxes, 
+- tracking dataset: 7200 frame image sequences from two videos; 600 images from the two videos were annotated with rotated bboxes and ID numbers of pigs
+- Huazhong Agriculture University, pigs in 6 pens, 12 cameras, 2560 × 1440 pixels, 2 videos
+- Faster RCNN detection model
+
 ### Zero-Shot Multi-Animal Tracking in the Wild
 - We modify SAM2MOT for multi-animal tracking
 - adaptive detection threshold
@@ -146,9 +154,11 @@
 - [dataset page](https://data.aifarms.org/view/piglife)
 
 ## Review
-Harnessing contactless monitoring technology for sows and piglets within farrowing pens: A critical review
+### Harnessing contactless monitoring technology for sows and piglets within farrowing pens: A critical review
 - City University of Hong Kong, Smart Agricultural Technology 2025
 - optical, infrared, audio, and radio-based sensing techniques
 - applications in farrowing pens are then presented, which span from daily monitoring of sows and piglets to event-specific tasks (e.g., farrowing prediction, lactation behavior analysis, crushing detection, and health indicator monitoring)
 - [Science Direct Paper](https://www.sciencedirect.com/science/article/pii/S2772375525005520?ref=cra_js_challenge&fr=RR-1)
 
+### Collection of public pig computer vision datasets
+- [github collection](https://github.com/Anil-Bhujel/Public-Computer-Vision-Dataset-A-Systematic-Survey)
