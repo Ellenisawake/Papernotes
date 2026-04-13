@@ -1,5 +1,15 @@
 
 ## Tracking
+### Automated Segmentation and Tracking of Group Housed Pigs Using Foundation Models
+- [paper on arXiv](https://arxiv.org/pdf/2604.03426)
+- Iowa State University, 2026
+- Grounding-DINO was first applied to 1,418 annotated images to establish a baseline detection performance
+- short-term video segmentation with Grounded-SAM2, 550 oneminute video clips
+-  after post-processing, over 80% of 4,927 active tracks were fully correct
+-  developed a long-term tracking pipeline integrating initialization, tracking, matching, mask refinement, re-identification, and post-hoc quality control
+-  evaluated on a continuous 132-minute video
+-  132 uniformly sampled ground-truth frames
+
 ### Don’t get lost in the crowd: Graph convolutional network for online animal tracking in dense groups
 - Computers and Electronics in Agriculture 2023
 - Tomas Norton, KU Leuven
