@@ -1,1 +1,5 @@
-
+# SAM3.1
+## object multiplexing
+- [blog](https://ai.meta.com/blog/segment-anything-model-3/)
+- allows the model to track up to 16 objects in a single forward pass
+- throughput at 32 frames per second on a single H100 GPU
