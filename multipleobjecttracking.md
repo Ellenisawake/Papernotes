@@ -34,6 +34,12 @@ Metrics: HOTA, MOTA, MOTP, IDF1
 - [paper](https://arxiv.org/pdf/2205.00158)
 
 ### Algorithms
+#### Re-Prompting SAM 3 via Object Retrieval: 3rd of the 5th PVUW MOSE Track
+- first applies the SAM 3 detector to later frames to identify same-category object candidates
+- DINOv3-based object-level matching with a transformation-aware target feature pool to retrieve reliable target anchors
+- anchors are injected back into the SAM 3 tracker together with the first-frame mask
+- multi-anchor propagation rather than relying solely on the initial prompt
+
 #### Multiple Object Tracking as ID Prediction (MOTIP)
 - CVPR25, Nanjing University
 - leveraging object-level features as tracking cues, decodes the ID labels for current detections
