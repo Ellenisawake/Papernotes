@@ -22,6 +22,7 @@
 - SAM2.1
 - distractor-distilled (DiDi) dataset
 - [arXiv](https://arxiv.org/pdf/2411.17576)
+- splits the model into Recent Appearance Memory (RAM) and Distractor Resolving Memory (DRM) and updates them by a new memory management protocol
 
 ## OAMVOS:2nd Report for 5th PVUW MOSE Track
 - [arXiv](https://arxiv.org/pdf/2604.22837)
