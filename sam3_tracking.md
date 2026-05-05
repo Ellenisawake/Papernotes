@@ -1,9 +1,9 @@
 # SAM3
-## SAM3.1
-## object multiplexing
+## SAM3.1: object multiplexing
 - [blog](https://ai.meta.com/blog/segment-anything-model-3/)
 - allows the model to track up to 16 objects in a single forward pass
 - throughput at 32 frames per second on a single H100 GPU
+- 2026 March
 
 ## ViewSAM: Learning View-aware Cross-modal Semantics for Weakly Supervised Cross-view Referring Multi-Object Tracking
 - Southeast University, Queen Mary University of London
@@ -11,13 +11,13 @@
 - design an Affinity-guided Cross-view Re-prompting trategy to refine and associate SAM3-generated tracklets across cameras
 - ViewSAM, a CRMOT model built upon SAM2 that explicitly models view-aware cross-modal semantics
 - [arXiv](https://arxiv.org/pdf/2605.02638)
-
+- 2026 May
 
 
 # SAM2
 ## A Distractor-Aware Memory (DAM) for Visual Object Tracking with SAM2
 - [github](https://github.com/jovanavidenovic/DAM4SAM)
-- CVPR25, IJCV26, University of Ljubljana
+- CVPR 2025, IJCV26, University of Ljubljana
 - [MOT version github](https://github.com/alanlukezic/d4sm)
 - SAM2.1
 - distractor-distilled (DiDi) dataset
@@ -28,6 +28,7 @@
 - occlusion- and reappearance-aware extension of DAM4SAM
 - add a control layer that explicitly distinguishes stable tracking from uncertain tracking
   - stable mode, ambiguous mode, recovery mode to decide if going through several branches
+- 2026 
 
 ## SAMIDARE: Tracking-by-Segmentation for Dense Scenarios
 - [github](https://github.com/ZabuZabuZabu/SAMIDARE)
@@ -46,6 +47,7 @@
 - [arXiv](https://arxiv.org/pdf/2510.18822)
 - [project page](https://tracking-any-granularity.github.io/)
 - a unified model towards tracking at any granularity, including masks, boxes, and points
+- 2025
 
 ## SAM2MOT: A Novel Paradigm of Multi-Object Tracking by Segmentation
 - [arXiv](https://arxiv.org/pdf/2504.04519)
