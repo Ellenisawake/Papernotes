@@ -14,6 +14,7 @@
 - 2026 May
 
 ## Re-Prompting SAM 3 via Object Retrieval: 3rd of the 5th PVUW MOSE Track
+- offline tracker
 - DINOv3-based object-level matching t o retrieve reliable target anchors (frames)
 - anchors are injected back into the SAM 3 tracker together with the first-frame mask
 
