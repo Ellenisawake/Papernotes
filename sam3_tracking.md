@@ -47,6 +47,14 @@
 - [project page](https://tracking-any-granularity.github.io/)
 - a unified model towards tracking at any granularity, including masks, boxes, and points
 
+## SAM2MOT: A Novel Paradigm of Multi-Object Tracking by Segmentation
+- [arXiv](https://arxiv.org/pdf/2504.04519)
+- [github](https://github.com/TripleJoy/SAM2MOT)
+- integrates pre-trained detector, pre-trained segmentor with tracking logic into a zero-shot MOT system
+- mmdetection
+- AAAI 2026, Huawei
+- Experiments on DanceTrack, UAVDT, and BDD100K
+
 # MLLM
 ## X2SAM: Any Segmentation in Images and Videos
 - Sun Yat-sen University, Peng Cheng Laboratory, Meituan Inc.
