@@ -15,6 +15,14 @@
 
 
 # SAM2
+## A Distractor-Aware Memory (DAM) for Visual Object Tracking with SAM2
+- [github](https://github.com/jovanavidenovic/DAM4SAM)
+- CVPR25, IJCV26, University of Ljubljana
+- [MOT version github](https://github.com/alanlukezic/d4sm)
+- SAM2.1
+- distractor-distilled (DiDi) dataset
+- [arXiv](https://arxiv.org/pdf/2411.17576)
+
 ## OAMVOS:2nd Report for 5th PVUW MOSE Track
 - [arXiv](https://arxiv.org/pdf/2604.22837)
 - occlusion- and reappearance-aware extension of DAM4SAM
@@ -28,7 +36,17 @@
 - selective memory updates
 - state-aware association and new track initialization
 - SportsMOT dataset
-- 
+
+## SAM2Long: Enhancing SAM 2 for Long Video Segmentation with a Training-Free Memory Tree
+- [github](https://github.com/Mark12Ding/SAM2Long)
+- ICCV 2025, CUHK, Shanghai AI Lab
+- a training-free memory tree, maintaining diverse segmentation hypotheses, dynamically pruning less optimal paths
+
+## SAM 2++: Tracking Anything at Any Granularity
+- [arXiv](https://arxiv.org/pdf/2510.18822)
+- [project page](https://tracking-any-granularity.github.io/)
+- a unified model towards tracking at any granularity, including masks, boxes, and points
+
 # MLLM
 ## X2SAM: Any Segmentation in Images and Videos
 - Sun Yat-sen University, Peng Cheng Laboratory, Meituan Inc.
