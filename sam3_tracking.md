@@ -35,12 +35,14 @@
   - stable mode, ambiguous mode, recovery mode to decide if going through several branches
 - 2026 
 
-## SAMIDARE: Tracking-by-Segmentation for Dense Scenarios
+## SAMIDARE: Advanced Tracking-by-Segmentation for Dense Scenarios
 - [github](https://github.com/ZabuZabuZabu/SAMIDARE)
+- [arXiv](https://arxiv.org/pdf/2604.22162)
 - enhances SAM2MOT for crowded scenes
 - density-aware mask re-generation
 - selective memory updates
 - state-aware association and new track initialization
+- uses both the mean and variance of mask confidence scores to identify unreliable masks
 - SportsMOT dataset
 
 ## SAM2Long: Enhancing SAM 2 for Long Video Segmentation with a Training-Free Memory Tree
