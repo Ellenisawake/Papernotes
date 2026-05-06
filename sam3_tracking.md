@@ -69,3 +69,27 @@
 - couples an LLM with a Mask Memory module
 - Video Visual Grounded (V-VGD) segmentation benchmark
 - [project page](https://wanghao9610.github.io/X2SAM/)
+
+# Knowledge Distillation
+## Lightweight Distillation of SAM 3 and DINOv3 for Edge-Deployable Individual-Level Livestock Monitoring and Longitudinal Visual Analytics
+- [arXiv](https://arxiv.org/pdf/2604.27128)
+- Cornell University, 2026
+- the first SAM-distillation effort whose target deliverable is per-animal welfare analytics on group-housed livestock
+- the **first published distilled SAM 3 checkpoint specialised for pig video**
+- 446M parameter Perception Encoder (PE-ViT-L+) backbone of SAM 3 is distilled into a 40.66M parameter multi-scale student
+- a Feature Pyramid Network student encoder built on TinyViT-21M-512
+  - TinyViT-based student comes from MobileSAM distillated from SAM1
+- a four-term direction-then-scale distillation loss
+- backbone-substitution inference with sliding-window session pruning
+- DINOv3 family includes a pre-distilled ViT-S/16 variant (21.6 M parameters)
+-  Edinburgh Pig dataset
+-  MOTA, IDF1,
+-  top-1 accuracy, macro-F1 on nine-class pig behaviour classification
+-  NVIDIA Jetson Orin NX 16 GB envelope with 4.9 GB of headroom
+-  Related works: EfficientSAM, MobileSAM, EdgeSAM, EfficientViT-SAM
+-  Related works: EdgeTAM and EfficientTAM, EfficientSAM3
+
+## EfficientSAM3: Progressive Hierachical Knowledge Distillation (PhD) from SAM1, 2 and 3
+- [github](https://github.com/SimonZeng7108/efficientsam3)
+- University of Bristol, 2026
+- 
