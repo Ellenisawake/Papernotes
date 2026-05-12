@@ -1,5 +1,34 @@
 
 ## Tracking
+### PKL-Track: A Keypoint-Optimized approach for piglet tracking and activity measurement
+- [paper on ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0168169925006842#s0010)
+- Computers and Electronics in Agriculture, Oct 2025, special issue on Advanced Technologies in Sustainable Agriculture 4.0: Future Farming, Monitoring, Harvesting and Preservation
+- Nanjing Agricultural University
+- YOLOv11s-Pose model for piglet keypoint detection, 3 point: head, tail, mid-dorsal
+  - only the small-scale detection head was retained due to universally small piglet size
+  - merges the object detection head with the keypoint localization head
+- improved BoT-SORT by incorporating keypoint and bounding box information to refine matching distances
+  - maximum prediction count of the object detection model is constrained to ensure it does not exceed the actual number of piglets within the crate
+  - matching distance is measured using a combination of piglet keypoints and bounding box IoU, replacing the Re-ID feature extraction module in the original BoT-SORT
+  - in the Norm-L2 matching stage, normalized L2 distance is employed to match the remaining detections and predictions
+  - adopts an Exponential Moving Average (EMA) method to update the positions of piglet keypoints
+- Activity quantification experiments, group activity measurement
+  - average pixel movement distance of these three keypoints for the same target between consecutive frames is calculated
+  - converted to the actual movement distance using camera parameters
+- video data from 31 piglet pens, commercial pig farm in Zhenjiang, China --> **private, no public release**
+- 25 fps, 1920 × 1080 pixels, 
+- Each pen, measuring 1.9 m × 2.55 m, housed 5 to 12 piglets
+- 25 crates were used for object and keypoint detection, 6 crates were used for piglet tracking
+- detection dataset: 1640 images (0.85:0.15), open-source annotation tool LabelMe
+- tracking dataset: three-minute video segments, X-AnyLabeling
+- 5-frame intervals to create the first tracking dataset comprising 5400 images (18min)
+- 25-frame intervals to create the second tracking dataset comprising 1080 images (18min)
+- RTX 3090,
+- the bounding box regression loss is composed of CIoU and DFL (Distribution Focal Loss)
+- keypoint localization loss is calculated using the Object Keypoint Similarity (OKS) metric
+
+
+
 ### Automated Segmentation and Tracking of Group Housed Pigs Using Foundation Models
 - [paper on arXiv](https://arxiv.org/pdf/2604.03426)
 - Iowa State University, 2026
