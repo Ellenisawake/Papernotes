@@ -34,6 +34,10 @@ Metrics: HOTA, MOTA, MOTP, IDF1
 - [paper](https://arxiv.org/pdf/2205.00158)
 
 ### Algorithms
+#### Boosting Self-Supervised Tracking with Contextual Prompts and Noise Learning
+- [arXiv](https://arxiv.org/html/2605.06092)
+- introduce different types of contextual information into the forward and backward tracking branches in a progressively evolving manner
+
 #### Re-Prompting SAM 3 via Object Retrieval: 3rd of the 5th PVUW MOSE Track
 - first applies the SAM 3 detector to later frames to identify same-category object candidates
 - DINOv3-based object-level matching with a transformation-aware target feature pool to retrieve reliable target anchors
