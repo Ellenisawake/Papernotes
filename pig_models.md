@@ -1,5 +1,5 @@
 
-## Tracking
+# Tracking
 ### PKL-Track: A Keypoint-Optimized approach for piglet tracking and activity measurement
 - [paper on ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0168169925006842#s0010)
 - Computers and Electronics in Agriculture, Oct 2025, special issue on Advanced Technologies in Sustainable Agriculture 4.0: Future Farming, Monitoring, Harvesting and Preservation
@@ -26,7 +26,8 @@
 - RTX 3090,
 - the bounding box regression loss is composed of CIoU and DFL (Distribution Focal Loss)
 - keypoint localization loss is calculated using the Object Keypoint Similarity (OKS) metric
-
+- Optimized YOLOv11s-Pose for precise keypoint localization
+- Kpt-IoU and Norm-L2 matching strategies
 
 
 ### Automated Segmentation and Tracking of Group Housed Pigs Using Foundation Models
@@ -87,15 +88,11 @@
 ### Multiple Object Tracking as ID Prediction
 - [paper](https://arxiv.org/pdf/2403.16848)
 
-### PKL-Track: A Keypoint-Optimized approach for piglet tracking and activity measurement
-- [paper](https://www.sciencedirect.com/science/article/abs/pii/S0168169925006842#f0010)
-- Optimized YOLOv11s-Pose for precise keypoint localization
-- Kpt-IoU and Norm-L2 matching strategies
 
 ### Object Concepts Emerge from Motion
 - [paper](https://arxiv.org/pdf/2505.21635)
 
-## Detection
+# Detection
 ### Towards automatic farrowing monitoring—A Noisy Student approach for improving detection performance of newborn piglets
 - Germany
 - a Noisy Student approach to automatically generate annotation information, teacher-student model
@@ -109,7 +106,10 @@
 - publicly proposing three custom datasets for ear tag, pin, and digit detection
 - [2025 Scientific Reports paper](https://www.nature.com/articles/s41598-025-05283-8)
 
-## Pose
+# Segmentation
+
+
+# Pose
 ### Multi-Object Keypoint Detection and Pose Estimation for Pigs
 - 2025, Eindhoven University of Technology
 - [paper](https://www.scitepress.org/Papers/2025/131701/131701.pdf)
@@ -133,14 +133,20 @@
 - https://github.com/jgraving/DeepPoseKit-Data/tree/master/datasets/zebra
 - https://github.com/open-mmlab/mmpose/blob/main/demo/docs/en/2d_animal_demo.md
 
-## Multimodal methods
-### Transformer-based audio-visual multimodal fusion for fine-grained recognition of individual sow nursing behaviour
-- South China Agricultural University
-- Audio-visual fusion framework for sow nursing sound and behaviour recognition
-- Sound source localisation system
-- [paper in Artificial Intelligence in Agriculture 2025](https://www.sciencedirect.com/science/article/pii/S2589721725000376)
+# Behaviour
+## A Computer Vision Pipeline for Individual-Level Behavior Analysis: Benchmarking on the Edinburgh Pig Dataset
+- [paper](https://www.researchsquare.com/article/rs-9971180/v1)
+- Scientific Reports 2026 under review, Cornell University
+- integration of pig detection/segmentation, tracking, behavior classification
 
-## Dataset
+# Dataset
+## Tracking
+### A Large-Scale Longitudinal Dataset for Pig Tracking and Re-Identification
+- Smart Agricultural Technology
+- Bristol Robotics Laboratory, Scotland’s Rural College (SRUC)
+- YOLOv8, SAM2
+- 740,000+ labelled frames, over 5.31 1.97 weeks, featuring 7.62 1.87 pigs per frame
+
 ### OinkTrack
 - over five hours of annotated video across sixteen sequences, ABBs
 - sequence ranges from one minute to one hour
@@ -187,12 +193,21 @@
 - [2025 paper](https://arxiv.org/pdf/2507.16639)
 
 
+## Detection/Segmentation
 ### PigLife
 - UIUC, 2023, 16GB
 - detection, segmentation, posture & behavior labels, occlusion,
 - [dataset page](https://data.aifarms.org/view/piglife)
 
-## Review
+# Multimodal methods
+### Transformer-based audio-visual multimodal fusion for fine-grained recognition of individual sow nursing behaviour
+- South China Agricultural University
+- Audio-visual fusion framework for sow nursing sound and behaviour recognition
+- Sound source localisation system
+- [paper in Artificial Intelligence in Agriculture 2025](https://www.sciencedirect.com/science/article/pii/S2589721725000376)
+
+
+# Review
 ### Harnessing contactless monitoring technology for sows and piglets within farrowing pens: A critical review
 - City University of Hong Kong, Smart Agricultural Technology 2025
 - optical, infrared, audio, and radio-based sensing techniques
