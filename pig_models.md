@@ -1,5 +1,15 @@
 
 # Tracking
+### An appearance-independent multi-object tracking framework for group-housed pigs
+- Computers and Electronics in Agriculture, October 2026
+- Spatiotemporal Association Enhanced Pig Tracking
+- Unscented Kalman Filter (UKF) to better handle nonlinear motion such as sudden accelerations and sharp turns
+- To address identity loss from long-term occlusion and trajectory fragmentation, an AFLink module constructs a global cost matrix from spatiotemporal trajectory continuity, combined with the Hungarian algorithm to recover fragmented identities without relying on appearance embeddings
+  - AFlink proposed in StrongSORT paper
+- Evaluated on both a self-collected and a public dataset
+- baseline SORT, DeepSORT, BotSORT, and OCSORT
+
+
 ### PKL-Track: A Keypoint-Optimized approach for piglet tracking and activity measurement
 - [paper on ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0168169925006842#s0010)
 - Computers and Electronics in Agriculture, Oct 2025, special issue on Advanced Technologies in Sustainable Agriculture 4.0: Future Farming, Monitoring, Harvesting and Preservation
