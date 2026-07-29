@@ -3,6 +3,8 @@
 ### An appearance-independent multi-object tracking framework for group-housed pigs
 - Computers and Electronics in Agriculture, October 2026
 - Spatiotemporal Association Enhanced Pig Tracking
+- reformulating identity maintenance in unmarked pig tracking as a two stage trajectory continuity problem under weak appearance cues
+- nonlinear short term motion uncertainty and long term trajectory fragmentation are treated as two distinct but connected sources of identity inconsistency
 - Unscented Kalman Filter (UKF) to better handle nonlinear motion such as sudden accelerations and sharp turns
 - To address identity loss from long-term occlusion and trajectory fragmentation, an AFLink module constructs a global cost matrix from spatiotemporal trajectory continuity, combined with the Hungarian algorithm to recover fragmented identities without relying on appearance embeddings
   - AFlink proposed in StrongSORT paper
