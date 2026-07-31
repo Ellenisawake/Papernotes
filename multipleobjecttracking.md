@@ -34,6 +34,14 @@ Metrics: HOTA, MOTA, MOTP, IDF1
 - [paper](https://arxiv.org/pdf/2205.00158)
 
 ### Algorithms
+#### No Train Yet Gain: Towards Generic Multi-Object Tracking in Sports and Beyond
+- CVPR25 CV in Sports workshop
+- [paper](https://openaccess.thecvf.com/content/CVPR2025W/CVSPORTS/papers/Stanczyk_No_Train_Yet_Gain_Towards_Generic_Multi-Object_Tracking_in_Sports_CVPRW_2025_paper.pdf)
+- McByte, integrates temporally propagated segmentation mask as an association cue
+- Evaluated on SportsMOT, DanceTrack, SoccerNet-tracking 2022 and MOT17
+
+
+
 #### Boosting Self-Supervised Tracking with Contextual Prompts and Noise Learning
 - [arXiv](https://arxiv.org/html/2605.06092)
 - introduce different types of contextual information into the forward and backward tracking branches in a progressively evolving manner
