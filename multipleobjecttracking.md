@@ -40,7 +40,11 @@ Metrics: HOTA, MOTA, MOTP, IDF1
 - McByte, integrates temporally propagated segmentation mask as an association cue
 - Evaluated on SportsMOT, DanceTrack, SoccerNet-tracking 2022 and MOT17
 
-
+#### When Fish Look Alike: Tracking Identities with Dual-branch Elasticity
+- [paper](https://arxiv.org/abs/2607.26412)
+- Adaptive Geometric Correspondence IoU, an association mechanism leveraging spatial and structural consistency to robustly handle complex morphological variations
+- Lightweight L-branch HOTA 28.43 on MFT-Edge benchmark
+- Scalable S-branch achieves HOTA 29.98
 
 #### Boosting Self-Supervised Tracking with Contextual Prompts and Noise Learning
 - [arXiv](https://arxiv.org/html/2605.06092)
