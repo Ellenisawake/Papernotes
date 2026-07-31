@@ -1,5 +1,14 @@
 
 # Tracking
+### Long-term identity-consistent multi-pig tracking in group-housed pens
+- Computers and Electronics in Agriculture, October 2026
+- data association is performed by jointly exploiting appearance features and motion information, with Re-identification-based appearance modeling
+- identity memory bank and a trajectory relinking mechanism
+- Outperforms BOT-SORT and ByteTrack baselines in MOTA and IDF1 scores
+- partial generalization in cross-scene conditions
+- [paper](https://www.sciencedirect.com/science/article/pii/S0168169926007994)
+- [code](https://github.com/glimmerc33-ui/pig_track)
+
 ### An appearance-independent multi-object tracking framework for group-housed pigs
 - Computers and Electronics in Agriculture, October 2026
 - Spatiotemporal Association Enhanced Pig Tracking
