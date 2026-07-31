@@ -8,6 +8,10 @@
 - partial generalization in cross-scene conditions
 - [paper](https://www.sciencedirect.com/science/article/pii/S0168169926007994)
 - [code](https://github.com/glimmerc33-ui/pig_track)
+- A rotated-object detector (YOLOv11-OBB) for pig detection
+- An appearance-based Re-identification (ReID) network for identity modeling
+- A trajectory management strategy with temporal smoothing and identity re-linking
+- Joint motion–appearance data association for robust multi-object tracking
 
 ### An appearance-independent multi-object tracking framework for group-housed pigs
 - Computers and Electronics in Agriculture, October 2026
