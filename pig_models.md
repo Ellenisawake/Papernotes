@@ -8,6 +8,7 @@
 -  keypoint prompt encoder,
 -  animal video benchmarks APTv2 and TigDog
 -  vision foundation models trained on large datasets can be used effectively to track animal pose with limited labelled data
+-  Nearest-Neighbour Correspondence Matching, drift point correction
 
 ### Long-term identity-consistent multi-pig tracking in group-housed pens
 - Computers and Electronics in Agriculture, October 2026
