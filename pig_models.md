@@ -1,5 +1,14 @@
 
 # Tracking
+### Promptable Animal Pose Tracking Across Species
+- [paper](https://arxiv.org/pdf/2608.04995)
+- University of Glasgow
+- arXiv 2608
+-  two models, one unsupervised and the other supervised, to track user-selected keypoints in videos
+-  keypoint prompt encoder,
+-  animal video benchmarks APTv2 and TigDog
+-  vision foundation models trained on large datasets can be used effectively to track animal pose with limited labelled data
+
 ### Long-term identity-consistent multi-pig tracking in group-housed pens
 - Computers and Electronics in Agriculture, October 2026
 - data association is performed by jointly exploiting appearance features and motion information, with Re-identification-based appearance modeling
