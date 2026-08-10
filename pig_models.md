@@ -1,5 +1,20 @@
 
 # Tracking
+### SIPTrack: Reliability-Aware Identity Prediction for Sparse-Interval Pig Multi-Object Tracking with a New Benchmark
+- Expert Systems with Applications, Aug 2026, Huazhong Agricultural University, Wuhan, China
+- [paper on ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0957417426028186#da01)
+- PigMOT, a sparse-interval pig multi-object tracking benchmark
+  - 46 video sequences (794.4min), including 2 night-time sequences, 25 FPS, 2560 × 1440
+  - 3-second annotation interval
+  - pigs were grouped into three categories: cough24, foot pain16, and healthy6
+  - open-source DarkLabel tool for annotation, and the annotation format follows DanceTrack
+  - 5,888 annotated frames, 69,732 bounding boxes, and 298 trajectories
+- SIPTrack, a reliability-aware spatio-temporal identity prediction framework
+  - Sparse-Interval Identity Memory, Temporally Constrained Spatio-Temporal Fusion
+  - Reliability-Aware Identity Prediction and Recovery
+  - Trajectory-level augmentation
+- also benchmarked on PigTrack
+
 ### Promptable Animal Pose Tracking Across Species
 - [paper](https://arxiv.org/pdf/2608.04995)
 - University of Glasgow
