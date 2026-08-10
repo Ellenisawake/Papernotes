@@ -69,6 +69,11 @@
 
 ### GTA: Global Tracklet Association for Multi-Object Tracking in Sports
 - [paper](https://arxiv.org/abs/2411.08216)
+- Machine Learning and Computing for Visual Semantic Analysis (MLCSA) workshop at ACCV2024
+- splitting tracklets containing multiple identities and connecting tracklets seemingly from the same identity
+  - tracklet splitter: cluster and split reid features of each object
+  - tracklet connector: use spatial constraints to determine min dist pair, then update feature
+- SoccerNet dataset, SportsMOT dataset
 
 # Dataset
 ### A Large-Scale Longitudinal Dataset for Pig Tracking and Re-Identification
