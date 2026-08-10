@@ -5,13 +5,27 @@
 - McByte, integrates temporally propagated segmentation mask as an association cue
 - Evaluated on SportsMOT, DanceTrack, SoccerNet-tracking 2022 and MOT17
 - Each tracklet gets its own mask, which is then propagated across frames
-- 
+- Cutie for mask propagator, MeMOTR for first frame segmentation
+- Ambiguity occurs when the IoU-based costs are low and similar for more than one entry in a row (or column) of the cost matrix
+  - IoU-based matches when tracked objects are close
+- Isolation occurs when relevant cost matrix entries contain too high values, not allowing for the association, and at the same time there is no ambiguity
+- condition 1: check if  temporally propagated mask is visible
+- condition 2: check if mask confidence above threshold
+- condition 3: check if the mask fill ratio of the bounding box mf is sufficiently high
+  - low could mean noisy or wrong masks
+- condition 4: check if the bounding box coverage of the mask mc is sufficiently high
+  - slightly below 1.0 is allowed
 
 #### When Fish Look Alike: Tracking Identities with Dual-branch Elasticity
 - [paper](https://arxiv.org/abs/2607.26412)
 - Adaptive Geometric Correspondence IoU, an association mechanism leveraging spatial and structural consistency to robustly handle complex morphological variations
 - Lightweight L-branch HOTA 28.43 on MFT-Edge benchmark
 - Scalable S-branch achieves HOTA 29.98
+- cascaded two-stage matching
+  - first stage, high-confidence matching utilizing the embedded appearance features
+  - A cosine distance module evaluates the semantic similarity between the newly extracted appearance embeddings and the existing tracklet features
+  - second stage: abandons appearance embeddings, performs robust geometric matching using our Adaptive Geometric Correspondence IoU (AGCIoU) metric; first associates remaining unmatched tracks with high confidence detections; secondary matching pass utilizing lowconfidence detections
+
 
 ### An appearance-independent multi-object tracking framework for group-housed pigs
 - Computers and Electronics in Agriculture, October 2026
