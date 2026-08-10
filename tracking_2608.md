@@ -4,6 +4,8 @@
 - [paper](https://openaccess.thecvf.com/content/CVPR2025W/CVSPORTS/papers/Stanczyk_No_Train_Yet_Gain_Towards_Generic_Multi-Object_Tracking_in_Sports_CVPRW_2025_paper.pdf)
 - McByte, integrates temporally propagated segmentation mask as an association cue
 - Evaluated on SportsMOT, DanceTrack, SoccerNet-tracking 2022 and MOT17
+- Each tracklet gets its own mask, which is then propagated across frames
+- 
 
 #### When Fish Look Alike: Tracking Identities with Dual-branch Elasticity
 - [paper](https://arxiv.org/abs/2607.26412)
