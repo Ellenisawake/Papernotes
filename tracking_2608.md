@@ -1,5 +1,16 @@
 # Multiple visually similar objects
-#### No Train Yet Gain: Towards Generic Multi-Object Tracking in Sports and Beyond
+
+### History-Aware Transformation of ReID Features for Multiple Object Tracking
+- ECCV26, [paper](https://arxiv.org/pdf/2503.12562), Nanjing University
+- a tailored Fisher Linear Discriminant (FLD) to project the raw ReID features into a sequence-specific representation space
+- DanceTrack, SportsMOT
+
+### BMW: Bidirectionally Memory bank reWriting for Unsupervised Person Re-Identification
+- NeurIPS25
+- memory banks should be rewritten with both intra-class and inter-class constraints
+
+
+### No Train Yet Gain: Towards Generic Multi-Object Tracking in Sports and Beyond
 - CVPR25 CV in Sports workshop
 - [paper](https://openaccess.thecvf.com/content/CVPR2025W/CVSPORTS/papers/Stanczyk_No_Train_Yet_Gain_Towards_Generic_Multi-Object_Tracking_in_Sports_CVPRW_2025_paper.pdf)
 - McByte, integrates temporally propagated segmentation mask as an association cue
@@ -16,7 +27,7 @@
 - condition 4: check if the bounding box coverage of the mask mc is sufficiently high
   - slightly below 1.0 is allowed
 
-#### When Fish Look Alike: Tracking Identities with Dual-branch Elasticity
+### When Fish Look Alike: Tracking Identities with Dual-branch Elasticity
 - [paper](https://arxiv.org/abs/2607.26412)
 - Adaptive Geometric Correspondence IoU, an association mechanism leveraging spatial and structural consistency to robustly handle complex morphological variations
 - Lightweight L-branch HOTA 28.43 on MFT-Edge benchmark
@@ -39,7 +50,7 @@
 - baseline SORT, DeepSORT, BotSORT, and OCSORT
 
 # Long term
-#### LTTrack: Rethinking the Tracking Framework for Long-Term Multi-Object Tracking
+### LTTrack: Rethinking the Tracking Framework for Long-Term Multi-Object Tracking
 - Sichuan University, TCSVT2024
 - Position-Based Association module, encodes relative and absolute positions as interaction and motion features
 - long-lost target re-identification
@@ -47,7 +58,7 @@
 - experiments on MOT17, MOT20, and DanceTrack
 - [github](https://github.com/Lin-Jiaping/LTTrack)
 
-#### An HMM-based framework for identity-aware long-term multi-object tracking from sparse and uncertain identification: use case on long-term tracking in livestock
+### An HMM-based framework for identity-aware long-term multi-object tracking from sparse and uncertain identification: use case on long-term tracking in livestock
 - CV4Animals workshop at CVPR24, Laval university Canada
 - [paper](https://drive.google.com/file/d/1_-6oLD4X2FHp3bo-Qp4PDtcpEMWr0kIL/view)
 - combine uncertainty identity with tracking information
