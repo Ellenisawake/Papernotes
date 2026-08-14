@@ -75,6 +75,7 @@
   - pigs were grouped into three categories: cough24, foot pain16, and healthy6
   - open-source DarkLabel tool for annotation, and the annotation format follows DanceTrack
   - 5,888 annotated frames, 69,732 bounding boxes, and 298 trajectories
+  - dataset claimed to be available upon request
 - SIPTrack, a reliability-aware spatio-temporal identity prediction framework
   - Sparse-Interval Identity Memory, Temporally Constrained Spatio-Temporal Fusion
   - Reliability-Aware Identity Prediction and Recovery
