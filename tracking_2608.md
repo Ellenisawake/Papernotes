@@ -96,6 +96,7 @@
   - a relinking search is first performed in the identity bank for new detections
 - Joint motion–appearance data association for robust multi-object tracking
 - a non-maximum suppression-like redundancy suppression strategy is applied to the same-frame trajectory set T during trajectory management
+- full dataset will be made available on request
 
 ### GTA: Global Tracklet Association for Multi-Object Tracking in Sports
 - [paper](https://arxiv.org/abs/2411.08216)
