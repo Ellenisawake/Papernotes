@@ -1,5 +1,7 @@
 # Multiple visually similar objects
 
+https://github.com/tstanczyk95/McBytePlusPlus
+
 ### History-Aware Transformation of ReID Features for Multiple Object Tracking
 - ECCV26, [paper](https://arxiv.org/pdf/2503.12562), Nanjing University
 - a tailored Fisher Linear Discriminant (FLD) to project the raw ReID features into a sequence-specific representation space
@@ -48,6 +50,10 @@
   - AFlink proposed in StrongSORT paper
 - Evaluated on both a self-collected and a public dataset
 - baseline SORT, DeepSORT, BotSORT, and OCSORT
+
+# Occlusion
+VOS-Agent: The 1st Place Solution for the 8th LSVOS Challenge (MOSEv2 Track)
+https://arxiv.org/pdf/2608.12721
 
 # Long term
 ### LTTrack: Rethinking the Tracking Framework for Long-Term Multi-Object Tracking
