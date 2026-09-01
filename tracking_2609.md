@@ -27,6 +27,12 @@
 
 ### VOS-Agent: The 1st Place Solution for the 8th LSVOS Challenge (MOSEv2 Track)
 
+## 7th LSVOS Challenge
+- [workshop at ICCV25](https://lsvos.github.io/index_2025.html)
+- Track 1: Complex Video Object Segmentation (MOSEv2)
+- Track 2: Video Object Segmentation (Classic VOS)
+- Track 3: Referring Video Object Segmentation (RVOS)
+
 
 # Lightweight
 ### MaST: Motion-aware Sparse Pipeline for Lightweight Object Tracking
