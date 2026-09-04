@@ -1,3 +1,7 @@
+# ReID + Tracking
+### BMCTrack-d: Pig re-identification and tracking via back marks in challenging camera settings
+- [arxiv](https://arxiv.org/pdf/2609.03463)
+
 # Long Video
 
 ### LongVU-TTT: Causal Test-Time Training for Visual Resampling in Long Video Understanding
